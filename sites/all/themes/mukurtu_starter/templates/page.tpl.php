@@ -73,65 +73,93 @@
  * @ingroup themeable
  */
 ?>
+<meta name="viewport" content="width=device-width"/>
 <header id="navbar" role="banner" class="<?php //print $navbar_classes; ?>">
-  <div class="">
+
+        <div class="header" role="banner">
+
+
     <!--
     <div class="navbar-header">
      <!--
 
-      <?php if (!empty($site_name)): ?>
-      <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-      <?php endif; ?>
+                  <?php if (!empty($site_name)): ?>
+                  <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+                   <?php endif; ?>
 
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div> -->
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div> -->
 
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="nav-top-wrapper">
-        <div class="navbar-collapse collapse navbar-top navbar container navbar-default">
-          <nav role="navigation">
-            <?php if (!empty($primary_nav)): ?>
-              <?php print render($primary_nav); ?>
+
+            <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+              <div class="nav-top-wrapper">
+                <div class="navbar-collapse collapse navbar-top navbar container navbar-default">
+                  <nav role="navigation">
+                    <?php if (!empty($primary_nav)): ?>
+                      <?php print render($primary_nav); ?>
+                    <?php endif; ?>
+
+                    <?php if (!empty($page['navigation'])): ?>
+                      <?php print render($page['navigation']); ?>
+                    <?php endif; ?>
+                  </nav>
+                </div>
+              </div>
             <?php endif; ?>
-            <?php if (!empty($page['navigation'])): ?>
-              <?php print render($page['navigation']); ?>
-            <?php endif; ?>
-          </nav>
-        </div>
-      </div>
-    <?php endif; ?>
 
 
-    <div class="navbar-bottom <?php print $navbar_classes; ?>">
-      <?php if ($logo): ?>
-        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img height="70" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      <?php endif; ?>
-      <?php if (!empty($secondary_nav)): ?>
-        <?php print render($secondary_nav); ?>
-      <?php endif; ?>
-    </div>
+
+
+            <div class="navbar-bottom <?php print $navbar_classes; ?>">
+                <?php if ($logo): ?>
+                    <div class="logo navbar-btn pull-left ">
+                    <a class="" href="http://www.une.edu.au/" title="<?php print t('Home'); ?>">
+                        <img height="177" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                    </a>
+                    </div>
+
+
+                <ul  class="header-links headerLinksResponsive ">
+
+                    <li><a class="link_937" href="http://www.une.edu.au/current-students">Current Students</a></li>
+                    <li><a class="link_938" href="http://www.une.edu.au/staff-current/home">Staff</a></li>
+
+                    <li><a class="link_939" href="http://www.une.edu.au/library">Library</a></li>
+                    <li><a class="link_935" href="http://www.une.edu.au/info-for/media">Media</a></li>
+                    <li><a class="link_940" href="http://www.une.edu.au/jobs-at-une">UNE Jobs</a></li>
+                    <li><a class="link_936" href="http://www.une.edu.au/contact-us">Contact us</a></li>
+                    <li><a class="link_96066"  href="http://my.une.edu.au">myUNE</a></li>
+
+
+                </ul>
+                <!--<form action="http://www.une.edu.au/search" method="GET" role="search" novalidate="novalidate" autocomplete="off">
+                    <label form="site-search-field" class="visuallyhidden">Search the site: </label>
+                    <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="query" id="site-search-field" placeholder="Search" data-autocomplete="off" class="ui-autocomplete-input" autocomplete="off" autocorrect="off" autocapitalize="off">
+                    <input type="hidden" value="une-meta" name="collection">
+                    <input type="submit" id="site-search-submit" value="Search">
+                </form>-->
+            </div>
+
+
+                        <!-- /#site-search--></di>
+                <?php endif; ?>
+                <?php if (!empty($secondary_nav)): ?>
+                    <?php print render($secondary_nav); ?>
+                <?php endif; ?>
+
+            </div>
   </div>
 </header>
 
-<div class="main-container container">
-
-  <header role="banner" id="page-header">
 
 
 
-    <?php if (!empty($site_slogan)): ?>
-      <p class="lead"><?php print $site_slogan; ?></p>
-    <?php endif; ?>
 
-    <?php print render($page['header']); ?>
-  </header> <!-- /#page-header -->
 
   <div class="row">
 
@@ -173,6 +201,189 @@
 
   </div>
 </div>
-<footer class="footer container">
+<div class="footer">
+
   <?php print render($page['footer']); ?>
+    <div id="footer-wrapper">
+
+        <ul class="footer-nav" style="position: relative;">
+
+            <li class="main-nav-level-2-group dynamic-col-1">
+                <a href="http://www.une.edu.au/study">Study</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/study/why-study-at-une">Why Study at UNE?</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/study-options">Study options</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/scholarships">Scholarships</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/applying-to-une">How to apply</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/important-dates">Admission and Application Dates</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/study-online">Study online</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/study-on-campus">Study on campus</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/study-centres">Study Centres</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/international">International</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/research-degrees">Research Degrees</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/study/fees">Fees and costs</a>
+                    </li>
+                </ul>
+
+
+            </li>
+            <li class="main-nav-level-2-group dynamic-col-2">
+                <a href="http://www.une.edu.au/campus-life">Campus Life</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/campus-life/une-accommodation">UNE Accommodation</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/campus-life/campus-information">Campus Information</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/campus-life/armidale-life">Armidale Life</a>
+                    </li>
+                </ul>
+
+
+            </li>
+            <li class="main-nav-level-2-group dynamic-col-3">
+                <a href="http://www.une.edu.au/connect">Connect</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/connect/events">Events Calendar</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/connect/news">News</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/connect/social-media">Social Media</a>
+                    </li>
+                </ul>
+
+
+            </li>
+            <li class="main-nav-level-2-group dynamic-col-1" style="margin-top: 0px;">
+                <a href="http://www.une.edu.au/research">Research</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/research/une-research-priorities">Research Themes and Clusters</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/research/research-centres-institutes">Centres, Institutes, CRCs</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/research/hdr">Higher Degree Research (HDR)</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/research/ethics-and-grants">Ethics and Grants</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/research/research-excellence-impact-and-engagement">Research Excellence, Impact and Engagement</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/research/research-resources">Research Performance Data</a>
+                    </li>
+                </ul>
+
+
+            </li>
+            <li class="main-nav-level-2-group dynamic-col-2" style="margin-top: -144px;">
+                <a href="http://www.une.edu.au/info-for">Info For</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/visitors">Visitors</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/for-high-schools">High Schools</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/business-and-community">Business and Community</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/indigenous-matters">Aboriginal and Torres Strait Islander Community</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/alumni-and-giving">Alumni and Giving</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/honorary-adjunct-and-visiting-appointments">Honorary Appointments</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/media">Media</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/info-for/teachers-professional-experience-office">Teachers &amp; Education Students</a>
+                    </li>
+                </ul>
+
+
+            </li>
+            <li class="main-nav-level-2-group dynamic-col-3" style="margin-top: -144px;">
+                <a href="http://www.une.edu.au/about-une">About UNE</a>
+
+                <ul class="level-2">
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/a-world-of-learning">A world of learning</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/governance">Governance</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/executive">Executive</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/academic-schools">Academic schools</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/areas">Administrative areas</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/principal-dates">Principal dates</a>
+                    </li>
+                    <li>
+                        <a href="http://www.une.edu.au/about-une/annual-reports">Annual reports</a>
+                    </li>
+                </ul>
+
+
+            </li>
+
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+    <div class="container-fluid footer-acknowledgment">
+        <div class="footer-acknowledgment__content">
+            <img src="http://www.une.edu.au/__data/assets/image/0006/95991/oorala.jpg" alt=" Oorala Aboriginal Centre banner" class="footer-acknowledgment__image">
+            <p class="footer-acknowledgment__text">
+                The University of New England respects and acknowledges that its people, programs and facilities are built on land, and surrounded by a sense of belonging, both ancient and contemporary, of the world's oldest living culture. In doing so, UNE values and respects Indigenous knowledge systems as a vital part of the knowledge capital of Australia.
+            </p>
+
+        </div>
+    </div>
 </footer>
