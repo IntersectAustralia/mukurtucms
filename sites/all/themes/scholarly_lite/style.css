@@ -422,7 +422,7 @@ top: 10px; right: 7px; font-size: 12px; font-weight: 400; color: #9c9c9c; line-h
 
 #header-top .mean-container a.meanmenu-reveal { color: #fff; text-decoration: none; }
 
-#header-top .mean-container a.meanmenu-reveal span { background: #fff; }
+#header-top .mean-container a.meanmenu-reveal span { background: rgb(106,18,27); }
 
 .mean-container .meanmenu-wrapper { display: none!important; height: 0!important; }
 
