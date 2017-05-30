@@ -59,6 +59,9 @@ CKEDITOR.editorConfig = function(config) {
     config.bodyClass = 'singlepage';
     config.bodyId = 'primary';
   }
+
+  /* Disable wrapping links in p tags */
+  config.autoParagraph = false;
 }
 
 /*
