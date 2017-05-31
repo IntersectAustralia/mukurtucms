@@ -1206,7 +1206,7 @@ div.ng-label {
     margin-top: 7pt;
 }
 
-.ng-complement {
+.ngangi-word-list div[class^='label'] {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
@@ -1217,4 +1217,5 @@ div.ng-label {
 .ng-example {
     font-style: italic;
 }
+
 

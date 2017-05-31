@@ -60,8 +60,6 @@ CKEDITOR.editorConfig = function(config) {
     config.bodyId = 'primary';
   }
 
-  /* Disable wrapping links in p tags */
-  config.autoParagraph = false;
 }
 
 /*
