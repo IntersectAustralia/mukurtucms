@@ -1199,14 +1199,14 @@ ul.ngangi-word-list {
     list-style-type: none;
 }
 
-div.ng-label {
+.ngangi-word-list div[class^='label'] {
     text-transform: uppercase;
     font-weight: bold;
     font-size: x-small;
     margin-top: 7pt;
 }
 
-.ngangi-word-list div[class^='label'] {
+.ng-complement {
     text-transform: uppercase;
     font-weight: bold;
     font-size: large;
