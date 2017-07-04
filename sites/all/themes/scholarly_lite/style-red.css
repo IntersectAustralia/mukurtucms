@@ -1,4 +1,7 @@
-#subfooter, #main-navigation .sf-menu li li.sfHover>a, #main-navigation ul.menu li a:hover, #header-top ul.menu li a:hover, #header-top .sf-menu li li.sfHover>a,
+style-gray-red.css?op9e62:15
+a, blockquote:after, ul.menu li.collapsed > a:before, ul.menu li.expanded > a:before, .footer-area ul.menu li.active-trail > a:before, ul.pager li.pager-current, .item-list ul li.pager-current.last, .node-mt .comment-counter, .comment ul.links li a, .ui-widget-content a, .view-mt-testimonials .views-field-title a, .footer-area ul.social-media-info li a, ul.social-media-info li a:hover i, .ui-widget-content ul.links li a, .node-mt .post-submitted-info i, .view-mt-testimonials .views-field-body p:first-child:after, .node-type-mt-testimonial .field-name-body p:first-child:after, .footer-area .views-field-title a {
+    color: #fff;
+}#subfooter, #main-navigation .sf-menu li li.sfHover>a, #main-navigation ul.menu li a:hover, #header-top ul.menu li a:hover, #header-top .sf-menu li li.sfHover>a,
 #header-top ul.menu>li>a.active, #header-top ul.main-menu.menu>li.active-trail>a:hover, #header-top .sf-menu>li.sfHover>a,
 .header-top-area .form-text, .footer-area .form-text, .header-top-area select, .footer-area select { background-color: #660d00; }
 
@@ -13,42 +16,42 @@ a, ul.menu li.collapsed > a:before, ul.menu li.expanded > a:before, .footer-area
 ul.social-media-info li a:hover i, .ui-widget-content ul.links li a, .item-list ul.quicktabs-tabs > li.active > a, 
 .nav-tabs > li.active > a, .item-list ul.quicktabs-tabs > li.active > a:hover, .nav-tabs > li.active > a:hover, .panel-title > a, 
 blockquote:after, .view-mt-testimonials .views-field-body p:first-child:after, .node-type-mt-testimonial .field-name-body p:first-child:after, 
-.node-mt .post-submitted-info i, .event-info i { color: #961300; }
+.node-mt .post-submitted-info i, .event-info i { color: rgb(106,18,27); }
 
-ul.pager li.pager-current, .item-list ul li.pager-current.last { border-bottom: 2px solid #961300; }
+ul.pager li.pager-current, .item-list ul li.pager-current.last { border-bottom: 2px solid rgb(106,18,27); }
 
 #footer, ul.links li a, a.more, input[type="submit"], input[type="reset"], input[type="button"], #main-navigation .sf-menu li.sfHover>a, #header-top, 
 .view-mt-events .views-field-field-mt-event-date, .page-courses .view-courses .view-content>h3, .page-faculty-staff .view-faculty-staff .view-content>h3,
 .page-students .view-students .view-content>h3, .event-date, .ui-accordion .ui-accordion-header .ui-accordion-header-icon, .flex-direction-nav a,
 .flex-control-paging li a, .subfooter-area .form-text, .subfooter-area select, #block-views-faculty-courses-block h2.title:after, .checkout-buttons .checkout-cancel, 
-.checkout-buttons .checkout-back, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:focus { background-color: #961300; }
+.checkout-buttons .checkout-back, .checkout-buttons .checkout-cancel:focus, .checkout-buttons .checkout-back:focus { background-color: #000000; }
 
-.flex-control-paging li a { border-color: #961300; }
+.flex-control-paging li a { border-color: rgb(106,18,27); }
 
-#main-navigation .sf-menu ul, #header-top .sf-menu ul { background: rgba(150,19,0,0.95); }
+#main-navigation .sf-menu ul, #header-top .sf-menu ul { background: rgb(106,18,27); }
 
-.title-wrapper a, .highlighted-content-wrapper .title a { background-color: rgba(150,19,0,0.90); }
+.title-wrapper a, .highlighted-content-wrapper .title a { background-color: 	rgb(106,18,27); }
 
 a:hover, a:focus, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .footer-area ul.menu li a:hover, ul.pager li > a:hover, 
 #breadcrumb a:hover, .comment ul.links li a:hover, .views-field-title a:hover, .ui-widget-content a:hover, 
-ul.members-social-bookmarks li a:hover, .ui-widget-content ul.links li a:hover, .mean-container .meanmenu-reveal.meanclose { color: #dd1d00; }
+ul.members-social-bookmarks li a:hover, .ui-widget-content ul.links li a:hover, .mean-container .meanmenu-reveal.meanclose { color: black; }
 
 .footer-area .item-list ul.quicktabs-tabs, .footer-area .nav-tabs, .footer-area .block-views .views-row, .footer-area .block-views .view, ul.pager li > a:hover,
 #header-top ul.menu>li>a:hover, #header-top ul.menu>li>a.active, #header-top ul.main-menu.menu>li.active-trail>a:hover, #header-top .sf-menu>li.sfHover>a,
-.footer-area .view-courses .more-link a { border-bottom-color: #dd1d00; }
+.footer-area .view-courses .more-link a { border-bottom-color: #fff; }
 
 .view-mt-features .views-row:hover .icon, ul.social-bookmarks li a:hover, ul.brands li a:hover, ul.members-social-bookmarks li a:hover,
 .item-list ul.quicktabs-tabs > li > a:hover, .nav-tabs > li > a:hover, .footer-area .item-list ul.quicktabs-tabs > li.active > a, 
 .footer-area .nav-tabs > li.active > a, .header-top-area ul.social-bookmarks li a:hover, .header-top-area ul.brands li a:hover, 
 .footer-area ul.social-bookmarks li a:hover, .footer-area ul.brands li a:hover,
-.subfooter-area ul.social-bookmarks li a:hover, .subfooter-area ul.brands li a:hover, .footer-area table td { border-color: #dd1d00; }
+.subfooter-area ul.social-bookmarks li a:hover, .subfooter-area ul.brands li a:hover, .footer-area table td { border-color: #fff; }
 
 ul.links li a:hover, a.more:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
 .item-list ul.quicktabs-tabs > li > a:hover, .nav-tabs > li > a:hover, ul.menu li a:hover,
 .footer-area ul.menu li a:hover, .field-type-taxonomy-term-reference .field-item a:hover, .panel-heading:hover,
 .footer-area .item-list ul.quicktabs-tabs > li.active > a, .footer-area .nav-tabs > li.active > a, 
 .footer-area .view-mt-events .views-field-field-mt-event-date, .mean-container .mean-nav ul li a:hover, .mean-container .mean-nav ul li a.mean-expand:hover, 
-table th, .checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-back:hover { background-color: #dd1d00; }
+table th, .checkout-buttons .checkout-cancel:hover, .checkout-buttons .checkout-back:hover { background-color: rgb(106,18,27); }
 
 .title-wrapper a:hover, .highlighted-content-wrapper .title a:hover { background-color: rgba(221,29,0,0.90); }
 

@@ -224,6 +224,9 @@ function scholarly_lite_form_system_theme_settings_alter(&$form, &$form_state) {
       'sff-29' => t('Volkhov, Georgia, Times, Times New Roman, Serif'),
       'sff-30' => t('Times, Times New Roman, Serif'),
       'sff-31' => t('Alegreya SC, Georgia, Times, Times New Roman, Serif'),
+      'sff-32' => t('Bembo Std, Georgia, Times, Times New Roman, Serif'),
+      'sff-33' => t('Futura, Georgia, Times, Times New Roman, Serif'),
+
     ),
     '#empty_option' => t('Disabled'),
     '#empty_value' => NULL,
@@ -265,6 +268,9 @@ function scholarly_lite_form_system_theme_settings_alter(&$form, &$form_state) {
       'slff-29' => t('Volkhov, Georgia, Times, Times New Roman, Serif'),
       'slff-30' => t('Times, Times New Roman, Serif'),
       'slff-31' => t('Alegreya SC, Georgia, Times, Times New Roman, Serif'),
+      'slff-32' => t('Bembo Std, Georgia, Times, Times New Roman, Serif'),
+      'slff-33' => t('Futura, Georgia, Times, Times New Roman, Serif'),
+
     ),
     '#empty_option' => t('Disabled'),
     '#empty_value' => NULL,
@@ -306,6 +312,9 @@ function scholarly_lite_form_system_theme_settings_alter(&$form, &$form_state) {
       'hff-29' => t('Volkhov, Georgia, Times, Times New Roman, Serif'),
       'hff-30' => t('Times, Times New Roman, Serif'),
       'hff-31' => t('Alegreya SC, Georgia, Times, Times New Roman, Serif'),
+      'hff-32' => t('Bembo Std, Georgia, Times, Times New Roman, Serif'),
+      'hff-33' => t('Futura, Georgia, Times, Times New Roman, Serif'),
+
     ),
     '#empty_option' => t('Disabled'),
     '#empty_value' => NULL,
@@ -347,6 +356,9 @@ function scholarly_lite_form_system_theme_settings_alter(&$form, &$form_state) {
       'pff-29' => t('Volkhov, Georgia, Times, Times New Roman, Serif'),
       'pff-30' => t('Times, Times New Roman, Serif'),
       'pff-31' => t('Alegreya SC, Georgia, Times, Times New Roman, Serif'),
+      'pff-32' => t('Bembo Std, Georgia, Times, Times New Roman, Serif'),
+      'pff-33' => t('Futura, Georgia, Times, Times New Roman, Serif'),
+
     ),
     '#empty_option' => t('Disabled'),
     '#empty_value' => NULL,

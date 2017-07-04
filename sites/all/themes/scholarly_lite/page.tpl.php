@@ -52,18 +52,13 @@
         <div id="header-inside" class="clearfix">
             <div class="row">
             
-                <div class="col-md-4">
+                <!--<div class="col-md-8">
                     <!-- #header-inside-left -->
-                    <div id="header-inside-left" class="clearfix">
+                    <div id="header-inside-left" class="clearfix"> 
 
                     <?php if ($logo):?>
                     <div id="logo">
                     <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
-                    </div>
-                    <?php endif; ?>
-                    <?php if ($site_name):?>
-                    <div id="site-name">
-                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
                     </div>
                     <?php endif; ?>
                     <?php if ($site_slogan):?>
@@ -80,11 +75,15 @@
                     <!-- EOF:#header-inside-left -->
                 </div>
                 
-                <div class="col-md-8">
+                <div class="">
+	<!-- <div class="col-md-4">-->
                     <!-- #header-inside-right -->
-			<h1 style="font-family:Times New Roman; color:rgb(106,18,27);font-size:280%;margin-left:10%">Ngan'gi Language </h1>
-			<h1 style="font-family:Times New Roman; color:rgb(106,18,27);font-size:280%;margin-left:18%">Preservation</h1>
-                    <div id="header-inside-right" class="clearfix">
+		    <?php if ($site_name):?>
+                    <div id="site-name" style="background-image: url(../sites/all/themes/scholarly_lite/Ngangi_Banner.jpg); height: 21.3em; width: 100%; border: 1px solid black; background-color: mintcream;">
+                    <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+                    </div>
+                    <?php endif; ?>
+	    	<div id="header-inside-right" class="clearfix">
 
                         <!-- #main-navigation -->
                         <div id="main-navigation" class="clearfix">
@@ -202,7 +201,7 @@
             <div class="row">
 
                 <?php if ($page['sidebar_first']):?>
-                <aside class="<?php print $sidebar_first_grid_class; ?>">
+                <!--<aside class="<?php print $sidebar_first_grid_class; ?>">-->
                     <!--#sidebar-->
                     <section id="sidebar-first" class="sidebar clearfix">
                     <?php print render($page['sidebar_first']); ?>

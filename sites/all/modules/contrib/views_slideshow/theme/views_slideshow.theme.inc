@@ -24,7 +24,7 @@ function _views_slideshow_preprocess_views_slideshow(&$vars) {
       }
     }
   }
-  
+
   // Make sure the main slideshow settings are defined before building the
   // slideshow.
   if (empty($main_frame_module)) {
@@ -70,10 +70,23 @@ function _views_slideshow_preprocess_views_slideshow(&$vars) {
     foreach ($addons as $addon_id => $addon_info) {
       foreach ($addon_info['accepts'] as $imp_key => $imp_value) {
         if (is_array($imp_value)) {
-          $methods[$imp_key][] = preg_replace('/_(.?)/e',"strtoupper('$1')", $addon_id);
+          $methods[$imp_key][] = preg_replace_callback(   // php5.x preg_replace_callback() method
+            '/_(.?)/',
+            function ($m) {
+              return strtoupper($m[1]);
+            },
+            $addon_id
+          );
+                               
         }
         else {
-          $methods[$imp_value][] = preg_replace('/_(.?)/e',"strtoupper('$1')", $addon_id);
+          $methods[$imp_value][] = preg_replace_callback(  // php5.x preg_replace_callback() method
+            '/_(.?)/',
+            function ($m) {
+              return strtoupper($m[1]);
+            },
+            $addon_id
+          );
         }
       }
     }
@@ -184,10 +197,15 @@ function theme_views_slideshow_pager_widget_render($vars) {
     'viewsSlideshowPager' => array(
       $vars['vss_id'] => array(
         $vars['location'] => array(
-          'type' => preg_replace('/_(.?)/e',"strtoupper('$1')", $vars['settings']['type']),
+          'type' => preg_replace_callback(   // php5.x preg_replace_callback() method
+            '/_(.?)/',
+            function ($m) {
+              return strtoupper($m[1]);
+            },
+            $vars['settings']['type']),
+          ),
         ),
       ),
-    ),
   );
 
   drupal_add_js($js_vars, 'setting');
@@ -215,7 +233,7 @@ function _views_slideshow_preprocess_views_slideshow_pager_fields(&$vars) {
 
   // Add the settings to the page.
   drupal_add_js($js_vars, 'setting');
-  
+
   // Add hover intent library
   if ($vars['settings']['views_slideshow_pager_fields_hover']) {
     if (module_exists('libraries')) {
@@ -272,10 +290,15 @@ function theme_views_slideshow_controls_widget_render($vars) {
     'viewsSlideshowControls' => array(
       $vars['vss_id'] => array(
         $vars['location'] => array(
-          'type' => preg_replace('/_(.?)/e',"strtoupper('$1')", $vars['settings']['type']),
+          'type' => preg_replace_callback(   // php5.x preg_replace_callback() method
+            '/_(.?)/',
+            function ($m) {
+              return strtoupper($m[1]);
+            },
+            $vars['settings']['type']),
+          ),
         ),
       ),
-    ),
   );
 
   drupal_add_js($js_vars, 'setting');
@@ -315,6 +338,7 @@ function _views_slideshow_preprocess_views_slideshow_controls_text_previous(&$va
   $vars['classes_array'][] = 'views_slideshow_controls_text_previous';
 }
 
+
 /**
  * Views Slideshow: "pause" control.
  *
@@ -349,3 +373,4 @@ function theme_views_slideshow_slide_counter_widget_render($vars) {
 function _views_slideshow_preprocess_views_slideshow_slide_counter(&$vars) {
   $vars['classes_array'][] = 'views_slideshow_slide_counter';
 }
+

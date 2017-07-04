@@ -36,21 +36,21 @@ ul.sf-menu.sf-style-black span.sf-description {
 }
 ul.sf-menu.sf-style-black li,
 ul.sf-menu.sf-style-black.sf-navbar {
-  background: #000000;
+  background: #ffffff;
 }
 ul.sf-menu.sf-style-black li li,
 ul.sf-menu.sf-style-black.sf-navbar > li > ul {
-  background: #151515;
+  background: #000000;
 }
 ul.sf-menu.sf-style-black li li li {
-  background: #252525;
+  background: #000000;
 }
 ul.sf-menu.sf-style-black li:hover,
 ul.sf-menu.sf-style-black li.sfHover,
 ul.sf-menu.sf-style-black a:focus,
 ul.sf-menu.sf-style-black a:hover,
 ul.sf-menu.sf-style-black span.nolink:hover {
-  background: #353535;
+  background: #000000;
   color: #ffffff;
   outline: 0;
 }
@@ -63,7 +63,7 @@ ul.sf-menu.sf-style-black span.nolink:hover {
 div.sf-accordion-toggle.sf-style-black a {
   background: #151515;
   border: 1px solid #000;
-  color: #ffffff;
+  color: #000000;
   display: inline-block;
   font-weight: bold;
   padding: 1em 3em 1em 1em;

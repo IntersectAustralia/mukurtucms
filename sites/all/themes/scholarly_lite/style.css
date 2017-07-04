@@ -30,6 +30,8 @@ body.pff-28, .pff-28 input, .pff-28 select, .pff-28 textarea, .pff-28 blockquote
 body.pff-29, .pff-29 input, .pff-29 select, .pff-29 textarea, .pff-29 blockquote, .pff-29 .ui-widget { font-family: 'Volkhov', Georgia, Times, Times New Roman, Serif; }
 body.pff-30, .pff-30 input, .pff-30 select, .pff-30 textarea, .pff-30 blockquote, .pff-30 .ui-widget { font-family: Times, Times New Roman, Serif; }
 body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote, .pff-31 .ui-widget { font-family: 'Alegreya SC', Georgia, Times, Times New Roman, Serif; }
+body.pff-32, .pff-32 input, .pff-32 select, .pff-32 textarea, .pff-32 blockquote, .pff-32 .ui-widget { font-family: 'Bembo Std', Georgia, Times, Times New Roman, Serif; }
+body.pff-33, .pff-33 input, .pff-33 select, .pff-33 textarea, .pff-33 blockquote, .pff-33 .ui-widget { font-family: 'Futura', Georgia, Times, Times New Roman, Serif; }
 
 .hff-1 h1,.hff-1 h2,.hff-1 h3,.hff-1 h4,.hff-1 h5,.hff-1 h6, .hff-1 .title-teaser-text .title, .sff-1 #site-name, 
 .sff-1 #subfooter-site-name, .slff-1 #site-slogan { font-family: 'Merriweather', Georgia, Times New Roman, Serif; }
@@ -93,6 +95,10 @@ body.pff-31, .pff-31 input, .pff-31 select, .pff-31 textarea, .pff-31 blockquote
 .sff-30 #subfooter-site-name, .slff-30 #site-slogan { font-family: Times, Times New Roman, Serif; }
 .hff-31 h1,.hff-31 h2,.hff-31 h3,.hff-31 h4,.hff-31 h5,.hff-31 h6, .hff-31 .title-teaser-text .title, .sff-31 #site-name, 
 .sff-31 #subfooter-site-name, .slff-31 #site-slogan { font-family: 'Alegreya SC', Georgia, Times, Times New Roman, Serif; }
+.hff-32 h1,.hff-32 h2,.hff-32 h3,.hff-31 h4,.hff-32 h5,.hff-32 h6, .hff-32 .title-teaser-text .title, .sff-32 #site-name,
+.sff-32 #subfooter-site-name, .slff-31 #site-slogan { font-family: 'Bembo Std', Georgia, Times, Times New Roman, Serif; }
+.hff-33 h1,.hff-33 h2,.hff-33 h3,.hff-33 h4,.hff-33 h5,.hff-33 h6, .hff-33 .title-teaser-text .title, .sff-33 #site-name,
+.sff-33 #subfooter-site-name, .slff-31 #site-slogan { font-family: 'Futura', Georgia, Times, Times New Roman, Serif; }
 
 .maintenance-page #site-name, .maintenance-page h1, body.maintenance-page, .maintenance-page #site-slogan { font-family: 'Lato', Helvetica Neue, Arial, Sans-serif; }
 
@@ -218,7 +224,7 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 	.block-superfish.block,
 	#main-navigation .block-menu.block,
 	#block-views-slideshow-block,
-	.header-top-area .block-menu { padding: 0!important; }
+	.header-top-area .block-menu { padding: 0!important;}
 }
 
 /*Layout*/
@@ -253,7 +259,7 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 
 #highlighted + #main-content { padding: 20px 0; }
 
-#main-content { padding: 60px 0; }
+#main-content { padding: 0px 0; }
 
 #promoted { padding: 0 0 20px 0; }
 
@@ -283,7 +289,13 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 
 #footer { background-color: #101010; padding: 25px 0 55px 0; }
 
-#subfooter { background-color: rgb(106,18,27); padding: 25px 0 15px; }
+#subfooter {     background-color: white;
+    padding: 25px 0 15px;
+    border-top: 2px solid rgb(106,18,27);
+    margin-left: 4%;
+    margin-top: -1%;
+    margin-right: 4%;
+    color: rgb(106,18,27); }
 
 @media (min-width: 1200px) { 
 	.fix-sidebar-second { padding-left: 45px; }
@@ -563,7 +575,12 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 
 #site-name { padding:0; margin: 5px 0 0 0; }
 
-#site-name a { font-size: 32px; font-weight: 700; line-height:1.1; color: #252525; }
+#site-name a {  
+    color: floralwhite;
+    font-size: 425%;
+    font-weight: 900;
+    margin-left: 0;
+    margin-right: 30%;}
 
 #site-name a:hover { text-decoration: none; opacity: 0.8; filter: alpha(opacity=80); -webkit-transition: all 0.2s ease-in-out; 
 -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
@@ -571,7 +588,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 #site-slogan { font-size: 13px; line-height:1.30; color: #252525; padding:0; font-weight: 700; }
 
 @media (min-width: 992px) and (max-width: 1199px) { 
-	#site-name a { font-size: 24px; }
+	#site-name a { font-family:Times New Roman; color:rgb(106,18,27);margin-left:10% }
 	#site-slogan { font-size: 12px; }
 }
 
@@ -579,7 +596,7 @@ display: block; background-color: #c2c2c2; right: 0; text-align: center; color: 
 	#logo { float: none; margin-right: 0; text-align: center; width: 100%;
 	-webkit-transform: scale(0.75); -moz-transform: scale(0.75); -ms-transform: scale(0.75); -o-transform: scale(0.75); transform: scale(0.75); }
 	#site-name, #site-slogan { text-align: center; }
-	#site-name {margin: 5px 0 0 0;}
+	#site-name {font-family:Times New Roman; color:rgb(106,18,27);margin-left:10%}
 	#site-slogan { padding: 5px 0 0 0; }	
 }
 
@@ -1193,7 +1210,6 @@ ul.contextual-links li a { font-weight: 400; line-height: 1; text-decoration: no
 
 .maintenance-page #footer-top { min-height: 40px; }
 
-
 /* Custom Dictionary Styles */
 ul.ngangi-word-list {
     list-style-type: none;
@@ -1218,4 +1234,13 @@ ul.ngangi-word-list {
     font-style: italic;
 }
 
-
+.field p {
+    padding: initial;
+}
+.field.field-name-field-media-asset.col-md-4.col-md-push-8 {
+    margin-top: 8%;
+}
+#left_column #media_display {
+    display: block;
+    margin-top: 14%;
+}
