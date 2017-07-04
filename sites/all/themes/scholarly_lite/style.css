@@ -1192,3 +1192,30 @@ ul.contextual-links li a { font-weight: 400; line-height: 1; text-decoration: no
 .maintenance-page #header-top,.maintenance-page #subfooter { min-height: 60px; }
 
 .maintenance-page #footer-top { min-height: 40px; }
+
+
+/* Custom Dictionary Styles */
+ul.ngangi-word-list {
+    list-style-type: none;
+}
+
+.ngangi-word-list div[class^='label'] {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-small;
+    margin-top: 7pt;
+}
+
+.ng-complement {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 7pt;
+    margin-bottom: -4pt;
+}
+
+.ng-example {
+    font-style: italic;
+}
+
+
