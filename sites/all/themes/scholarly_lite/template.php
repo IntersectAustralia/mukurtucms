@@ -424,7 +424,7 @@ function scholarly_lite_preprocess_page(&$variables) {
 			$variables['main_grid_class'] = 'col-md-8';
 			$variables['sidebar_second_grid_class'] = 'col-md-4 fix-sidebar-second';		
 		} else {
-			$variables['main_grid_class'] = 'col-md-8 col-md-offset-2';
+			$variables['main_grid_class'] = 'col-md-12 col-md-offset-0';
 			$variables['sidebar_first_grid_class'] = '';	
 			$variables['sidebar_second_grid_class'] = '';			
 		}
@@ -447,8 +447,8 @@ function scholarly_lite_preprocess_page(&$variables) {
 			$variables['main_grid_class'] = 'col-md-8';
 			$variables['sidebar_first_grid_class'] = 'col-md-4 fix-sidebar-first';
 		} elseif (!$sidebar_first && $sidebar_second) {
-			$variables['main_grid_class'] = 'col-md-8';
-			$variables['sidebar_second_grid_class'] = 'col-md-4 fix-sidebar-second';		
+			$variables['main_grid_class'] = 'col-md-5';
+			$variables['sidebar_second_grid_class'] = 'col-md-7 fix-sidebar-second';		
 		} else {
 			$variables['main_grid_class'] = 'col-md-12';
 			$variables['sidebar_first_grid_class'] = '';	

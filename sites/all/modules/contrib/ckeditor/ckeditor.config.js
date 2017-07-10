@@ -101,3 +101,7 @@ Drupal.settings.cke_toolbar_DrupalFull = [
   ['Maximize', 'ShowBlocks'],
   ['DrupalBreak', 'DrupalPageBreak']
 ];
+
+// Stop wrapping anchor tags
+delete CKEDITOR.dtd.$inline['a'];
+
