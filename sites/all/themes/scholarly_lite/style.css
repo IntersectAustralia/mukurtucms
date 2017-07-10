@@ -259,7 +259,7 @@ h1.title { margin-top:0; margin-bottom: 20px; }
 
 #highlighted + #main-content { padding: 20px 0; }
 
-#main-content { padding: 0px 0; }
+#main-content { padding: 0 0; }
 
 #promoted { padding: 0 0 20px 0; }
 
