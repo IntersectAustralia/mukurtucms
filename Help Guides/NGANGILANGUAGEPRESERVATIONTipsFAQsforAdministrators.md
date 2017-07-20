@@ -35,10 +35,11 @@ HTML sample/template of formatted entry for the Dictionary:
 ## Ngan'gi Website: Tips and FAQs
 
 Note: Once released to production, all nganÕgi urls in this document should be updated from https://ngangi-staging.intersect.org.au to the Production url.
+
 For general logged-in Contributors:
 1. General Principles on the website for Communities, Collections and Protocols: 
-1.1. Communities 
-1.1.1. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.
+a. Communities 
+* Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.
 1.1.2. Each community represents a group of content contributors and site users and contains digital heritage items relevant to those community members. User access to individual digital heritage items within a community is managed through the use of cultural protocols that are created within the community.
 1.1.3. Some examples of communities could be specific families or clans, tribal government departments, or a space for youth-appropriate content.
 1.2. Cultural Protocols 
