@@ -38,36 +38,38 @@ Note: Once released to production, all nganÕgi urls in this document should be 
 
 For general logged-in Contributors:
 1. General Principles on the website for Communities, Collections and Protocols: 
-a. Communities 
+### Communities 
 * Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.
-1.1.2. Each community represents a group of content contributors and site users and contains digital heritage items relevant to those community members. User access to individual digital heritage items within a community is managed through the use of cultural protocols that are created within the community.
-1.1.3. Some examples of communities could be specific families or clans, tribal government departments, or a space for youth-appropriate content.
-1.2. Cultural Protocols 
-1.2.1. Each cultural protocol exists within a community, and each community can have multiple cultural protocols. Digital heritage items are placed within at least one cultural protocol and can then be viewed by users who are also members of those protocols.
-1.2.2. There are two types of cultural protocols: open and strict. Digital heritage items within an open protocol can be viewed by anyone (including anonymous site visitors), while items within a strict protocol can only be viewed by members of that protocol. Multiple protocols can be layered to ensure that users can only view items appropriate for them, and to provide very granular access. For example, if an item is part of the two strict protocols ÔWomen OnlyÕ and ÔElders Only,Õ then only users who are members of both the ÔWomen OnlyÕ and ÔElders OnlyÕ protocols can view that item.
-1.2.3. Some examples of cultural protocols could be gender-based (male only, female only), age-based (elders only, no youth), seasonal access only, clan or tribal affiliation, secret/sacred, community only, or public access/open.
-1.3. Categories 
-1.3.1. Categories are terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For example, ÔFishingÕ or ÔFoodÕ may make good categories as they could apply to a range of items, but ÔsalmonÕ may not make a good category, as it is likely to only apply to a small number of items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article Using Categories and Keywords.
-1.3.2. Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.
-1.3.3. Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artifacts.
-2. TIP: http://mukurtu.org/mobile/ ? with Apple & Android downloads may make data editing easier on devices. ?There's a Help Guide at https://github.com/MukurtuCMS/mukurtu-mobile/wiki/02_User's-Guide?, but weÕve noticed in a quick look through that the only way to publish Videos from the app (at the time of writing this help guide)  is via a YouTube login, so ?possibly it won't suit all UserÕs purposes, but we think worth a look to see if it makes mobile usage any easier for you.
+* Each community represents a group of content contributors and site users and contains digital heritage items relevant to those community members. User access to individual digital heritage items within a community is managed through the use of cultural protocols that are created within the community.
+* Some examples of communities could be specific families or clans, tribal government departments, or a space for youth-appropriate content.
+### Cultural Protocols 
+* Each cultural protocol exists within a community, and each community can have multiple cultural protocols. Digital heritage items are placed within at least one cultural protocol and can then be viewed by users who are also members of those protocols.
+* There are two types of cultural protocols: open and strict. Digital heritage items within an open protocol can be viewed by anyone (including anonymous site visitors), while items within a strict protocol can only be viewed by members of that protocol. Multiple protocols can be layered to ensure that users can only view items appropriate for them, and to provide very granular access. For example, if an item is part of the two strict protocols ÔWomen OnlyÕ and ÔElders Only,Õ then only users who are members of both the ÔWomen OnlyÕ and ÔElders OnlyÕ protocols can view that item.
+* Some examples of cultural protocols could be gender-based (male only, female only), age-based (elders only, no youth), seasonal access only, clan or tribal affiliation, secret/sacred, community only, or public access/open.
+### Categories 
+* Categories are terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For example, ÔFishingÕ or ÔFoodÕ may make good categories as they could apply to a range of items, but ÔsalmonÕ may not make a good category, as it is likely to only apply to a small number of items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article Using Categories and Keywords.
+* Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.
+* Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artifacts.
+
+TIP: http://mukurtu.org/mobile/ ? with Apple & Android downloads may make data editing easier on devices. ?There's a Help Guide at https://github.com/MukurtuCMS/mukurtu-mobile/wiki/02_User's-Guide?, but weÕve noticed in a quick look through that the only way to publish Videos from the app (at the time of writing this help guide)  is via a YouTube login, so ?possibly it won't suit all UserÕs purposes, but we think worth a look to see if it makes mobile usage any easier for you.
 3. To add items (Photographs, Videos, Audio):
-3.1. create a Community (or select an existing one)
-3.1.1. To add Community navigate to Ô+ CommunityÕ on Home page or Click on ÔDashboardÕ on Home page and click on Communities-> ÔCreate CommunityÕ.
-3.1.2. At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).
-3.1.3. To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the CommunityÕs page content or you can add new images.(SCALD Media Manager)
-3.1.4. Click on Add files; choose a picture from your computer.
-3.1.5. Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.
-3.1.6. If a protocol is already generated, select a protocol from drop down menu.
-3.1.7. Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).
-3.1.8. Add other details regarding thumbnail image.
-3.1.9. A license and category can be added.
-3.1.10. Click on ÔFinishÕ. The image will appear on the right hand side panel of the screen.
-3.1.11. Click and Drag the image to Thumbnail image space, or select it and ÒInsertÓ if your browser wonÕt support Click and Drag.
-3.1.12. Also, check Publishing options and select `PublishedÕ - This only publishes the data just filled to this CommunityÕs page.
-3.2. Add Digital Heritage Item 
-3.2.1. Add Digital Heritage item from `+ Digital Heritage` from home page or Navigate to Dashboard and click on `Add Digital Heritage itemÕ under Content and Collections
-3.2.2. Enter Digital Item HeritageÕs Title, summary
+### create a Community (or select an existing one)
+* To add Community navigate to Ô+ CommunityÕ on Home page or Click on ÔDashboardÕ on Home page and click on Communities-> ÔCreate CommunityÕ.
+* At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).
+* To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the CommunityÕs page content or you can add new images.(SCALD Media Manager)
+* Click on Add files; choose a picture from your computer.
+* Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.
+* If a protocol is already generated, select a protocol from drop down menu.
+* Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).
+* Add other details regarding thumbnail image.
+* A license and category can be added.
+* Click on ÔFinishÕ. The image will appear on the right hand side panel of the screen.
+* Click and Drag the image to Thumbnail image space, or select it and ÒInsertÓ if your browser wonÕt support Click and Drag.
+* Also, check Publishing options and select `PublishedÕ - This only publishes the data just filled to this CommunityÕs page.
+
+### Add Digital Heritage Item 
+* Add Digital Heritage item from `+ Digital Heritage` from home page or Navigate to Dashboard and click on `Add Digital Heritage itemÕ under Content and Collections
+* Enter Digital Item HeritageÕs Title, summary
 3.2.3. Add images/videos (same as adding SCALD media for 3.2 above)
 3.2.4. Choose protocol, community and which category it belongs to
 3.2.5. To add Labels, License : Click on Rights and Permission tab -select labels, permissions etc.
