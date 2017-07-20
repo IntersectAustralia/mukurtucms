@@ -1,7 +1,7 @@
 
-#Ngan'gi Language Preservation
+# Ngan'gi Language Preservation
 
-##Index
+## Contents
 For general logged-in Contributors:
 General Principles on the website for Communities, Collections and Protocols:
 Communities, Cultural Protocols, Categories
