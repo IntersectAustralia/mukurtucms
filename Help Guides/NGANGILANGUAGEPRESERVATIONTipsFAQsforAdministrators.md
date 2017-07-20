@@ -1,4 +1,302 @@
 
-#Ngan’gi Language Preservation
+#Ngan'gi Language Preservation
 
-##IndexFor general logged-in Contributors:General Principles on the website for Communities, Collections and Protocols:Communities, Cultural Protocols, CategoriesTo add items (Photographs, Videos, Audio):Add Digital Heritage ItemCreate Collections (or select an existing one):Add an unformatted Dictionary Word:For Community Administrators:To create a Community (or select an existing one)To create a Protocol: (or Selecting existing Protocols)Add People:For more information on how the SCALD library works FAQ: How can I add an EOPAS item?For Mukurtu Administrators:FAQ: Is there a User Guide for Mukurtu? FAQ: How do I edit the homepage title ‘NGAN'GI LANGUAGE PRESERVATION’ FAQ: I added a photograph and it’s not showing on the “Photographs” tab. FAQ: How do I edit the Banner image? For Drupal Administrators:Add a Dictionary Word FAQ: How can I add a formatted Dictionary word (or edit an unformatted one)FAQ: How do I backup the website?FAQ: How can I change the font on the website?FAQ: What if I want to edit the layout on a page?FAQ: How do I create a Content Block?FAQ: How do I move a Content Block?FAQ: How can I learn more about Drupal?Sample/template of how a formatted entry displays in the Dictionary: TYERRAKULHTML sample/template of formatted entry for the Dictionary:## Ngan'gi Website: Tips and FAQsNote: Once released to production, all ngan’gi urls in this document should be updated from https://ngangi-staging.intersect.org.au to the Production url.For general logged-in Contributors:1. General Principles on the website for Communities, Collections and Protocols: 1.1. Communities 1.1.1. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.1.1.2. Each community represents a group of content contributors and site users and contains digital heritage items relevant to those community members. User access to individual digital heritage items within a community is managed through the use of cultural protocols that are created within the community.1.1.3. Some examples of communities could be specific families or clans, tribal government departments, or a space for youth-appropriate content.1.2. Cultural Protocols 1.2.1. Each cultural protocol exists within a community, and each community can have multiple cultural protocols. Digital heritage items are placed within at least one cultural protocol and can then be viewed by users who are also members of those protocols.1.2.2. There are two types of cultural protocols: open and strict. Digital heritage items within an open protocol can be viewed by anyone (including anonymous site visitors), while items within a strict protocol can only be viewed by members of that protocol. Multiple protocols can be layered to ensure that users can only view items appropriate for them, and to provide very granular access. For example, if an item is part of the two strict protocols ‘Women Only’ and ‘Elders Only,’ then only users who are members of both the ‘Women Only’ and ‘Elders Only’ protocols can view that item.1.2.3. Some examples of cultural protocols could be gender-based (male only, female only), age-based (elders only, no youth), seasonal access only, clan or tribal affiliation, secret/sacred, community only, or public access/open.1.3. Categories 1.3.1. Categories are terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For example, ‘Fishing’ or ‘Food’ may make good categories as they could apply to a range of items, but ‘salmon’ may not make a good category, as it is likely to only apply to a small number of items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article Using Categories and Keywords.1.3.2. Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.1.3.3. Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artifacts.2. TIP: http://mukurtu.org/mobile/ ? with Apple & Android downloads may make data editing easier on devices. ?There's a Help Guide at https://github.com/MukurtuCMS/mukurtu-mobile/wiki/02_User's-Guide?, but we’ve noticed in a quick look through that the only way to publish Videos from the app (at the time of writing this help guide)  is via a YouTube login, so ?possibly it won't suit all User’s purposes, but we think worth a look to see if it makes mobile usage any easier for you.3. To add items (Photographs, Videos, Audio):3.1. create a Community (or select an existing one)3.1.1. To add Community navigate to ‘+ Community’ on Home page or Click on ‘Dashboard’ on Home page and click on Communities-> ‘Create Community’.3.1.2. At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).3.1.3. To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the Community’s page content or you can add new images.(SCALD Media Manager)3.1.4. Click on Add files; choose a picture from your computer.3.1.5. Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.3.1.6. If a protocol is already generated, select a protocol from drop down menu.3.1.7. Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).3.1.8. Add other details regarding thumbnail image.3.1.9. A license and category can be added.3.1.10. Click on ‘Finish’. The image will appear on the right hand side panel of the screen.3.1.11. Click and Drag the image to Thumbnail image space, or select it and “Insert” if your browser won’t support Click and Drag.3.1.12. Also, check Publishing options and select `Published’ - This only publishes the data just filled to this Community’s page.3.2. Add Digital Heritage Item 3.2.1. Add Digital Heritage item from `+ Digital Heritage` from home page or Navigate to Dashboard and click on `Add Digital Heritage item’ under Content and Collections3.2.2. Enter Digital Item Heritage’s Title, summary3.2.3. Add images/videos (same as adding SCALD media for 3.2 above)3.2.4. Choose protocol, community and which category it belongs to3.2.5. To add Labels, License : Click on Rights and Permission tab -select labels, permissions etc.3.2.6. To add Additional Metadata - Select `Additional Meta Data`tab from `Additional Metadata` 3.3. Create Collections (or select an existing one):3.3.1. Click on `+Collection` or navigate to Content and Collections and click on `Create a collection`3.3.2. Fill in Collection name and other basic data3.3.3. Navigate to Digital Heritage Items tab3.3.4. Add media from SCALD (Same as adding media for 3.2 above)3.4. Add an unformatted Dictionary Word:3.4.1. Click on add `+ Dictionary word` on home page3.4.1.1. Fill in necessary information, change to ‘Relations’ tab & fill necessary information.3.4.1.2. Click on ‘Save’.3.4.1.3. An Administrator will review the site from time to time, and can format any added words to match the other Dictionary entries on the site.3.5. Searching words in the Dictionary search frame. The dictioanary is capable of searching using basic regular expression searches (regex). For mor information about these, see: http://www.rexegg.com/regex-quickstart.htmlFor Community Administrators:1. Before adding a Community, Collection or Protocol, see Principles of Communities, Collections and Protocols:To see how Communities, Collections and protocols are constructed on the website,        see https://ngangi-staging.intersect.org.au/dashboard/communities2. To create a Community (or select an existing one)2.1. To add Community navigate to ‘+ Community’ on Home page or Click on ‘Dashboard’ on Home page and click on Communities-> ‘Create Community’.2.2. At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).2.3. To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the Community’s page content or you can add new images.(SCALD Media Manager)2.4. Click on Add files; choose a picture from your computer.2.5. Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.2.6. If a protocol is already generated, select a protocol from drop down menu.2.7. Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).2.8. Add other details regarding thumbnail image.2.9. A license and category can be added.2.10. Click on ‘Finish’. The image will appear on the right hand side panel of the screen.2.11. Click and Drag the image to Thumbnail image space, or select it and “Insert” if your browser won’t support Click and Drag.2.12. Also, check Publishing options and select `Published’ - This only publishes the data just filled to this Community’s page.3. To create a Protocol:3.1. To add Protocols (User must have Community Administrator permission) navigate to `+ Cultural Protocol` on home page.3.2. Fill in necessary details like Name, Accessibility of the protocol, parent community.3.3. Select parent community and click on ‘Save’.4. Selecting existing Protocols4.1. To see Protocols that have already been created, go to https://ngangi-staging.intersect.org.au/dashboard/communities. Alternatively, select ‘Content’ (Drupal top leftt corner if an admin user). A list should appear of all the content items created, including ‘Protocols’. Protocols are categorised under ‘Type’ as ‘Cultural Protocols’4.2. Select a Protocol to explore configurations and settings.5. Add People:5.1. Click on People on Home Screen5.2. Click on `+Add User`5.3. Fill necessary information with Role for the User.5.4. You can also notify user via email (Click on Tick box provided)5.5. Click ‘Save’.5.6. FAQ: I want to add a user who doesn’t have an email address. Answer: If you need to add someone who doesn’t have an email, you can create a temporary email mailbox by using <anyname>@mailinator.com. When the system sends out the welcome email to set up their password/account, go to https://www.mailinator.com/  and enter in the address you’ve used. That email will stay available at mailinator for a few hours. If the user needs to recover a password, the same method of go to https://www.mailinator.com/  and enter in the address they’ve used will also allow the user to recover an account.6. For more information on how the SCALD library works for uploading content for the website see good tutorials, presentations and & podcasts about SCALD,available at https://www.drupal.org/node/21018857. FAQ: As a Community Administrator, It’s not obvious to me how I control what a community sees. Can I specify that an item is visible to all communities by specifying all, or by not specifying any? Answer: 7.1. Specific to Ngan'gi site: https://ngangi-staging.intersect.org.au./dashboard/communities shows specifically how your own Communities > Protocols  are currently working, with Edit links to each Protocol7.2. http://support.mukurtu.org/customer/en/portal/articles/2430079-how-do-user-roles-and-permissions-work- gives a good overview on how Permissions/Communities/Protocols work, and the linked MukurtuUserRoles_PermissionMatrix.pdf shows a further overview of how the Permissions work on the site.8. FAQ: I’ve created a new community and want to invite someone to join. There’s both ‘Add Members’ and  ‘Invite Users’ tabs, but both state the email address I enter to be ‘the following user does not exist’. Need my invited guest already be a user before being an invitee? Can I invite a User unknown to the website? Answer: No, the invitee needn't be logged into the system first if you are an Administrator. To invite a new user:  8.1. Logged in, from homepage, use "+ User" link in main navigation should take you to https://ngangi-staging.intersect.org.au/admin/people/create. Here you can add a not-previously-logged User, assign them roles, and add them directly to a Community (or more than one). They'll receive an email which has a link to access the site where they can create their own password. 8.2. Alternatively, from Dashboard (https://.../dashboard),  go to (Site Users) -> Add User -> https://ngangi-staging.intersect.org.au/admin/people/create. 8.3. Once a user is in the system, you can additionally add them to a Community/Protocol via that Community/Protocol  > Edit > Invite9. FAQ: I’ve figured out the Scald Library, and have successfully added an image to it and then accessed that image to add it to a Digital Heritage item. That item was a photo, but it doesn’t automatically appear under the ‘Photographs’ tab. Answer: If you want photos to show to all site visitors e.g. via the "Photographs" link, you need permission to edit the "Photographs" page directly and add/delete photos as usual (by adding through Scald) - Note though, the “Photographs” page is currently visible to every visitor to the site, even unlogged users . 9.1. Permissions may be added to individual photographs if/as they're added as Digital Heritage Items to only display to certain Community/Protocol members. To subsequently view these content items you need to be  a member of the nominated Community/Protocol to enable access to them.9.2. There's probably several ways to do this, but one way to review what you've already added to Scald is to is to go to Dashboard >  (Content and Collections) > View Media (https://ngangi-staging.intersect.org.au/admin/content/atoms)9.3. This differ?s from the 'Audio-Video' link which updates with anything that's been added as a "+ Digital Heritage" item10. FAQ: How can I add an EOPAS item?10.1.1. Precondition 1: The following is assuming the files being uploaded have been processed by ELAN software - See https://tla.mpi.nl/tools/tla-tools/elan/ for ELAN download and User guides for ELAN) 10.1.2. Precondition 2: Video & Audio files able to be uploaded  to EOPAS:  wav, mp3, mov, mp4 (these will be transcoded to the (ogg) streaming format - future plans include transcoding to WebM and MP4, but these are not available in the current version of EOPAS). Please be patient as it can take a few minutes to complete the uploading and transcoding process.10.2. As a user with permission to upload to EOPAS, go to <insert Production url> (https://eopas-staging.intersect.org.au/ for Demo). User may have to register and you’ll receive an email which will give them access to the site)10.3. Once logged into the EOPAS server:10.3.1. Click on “Upload media” (on the top bar)10.3.2. Fill in the basic metadata fields and upload the video file (.wav or .mp4). 10.3.3. Save this video record. This may take a few minutes to upload so be patient. Don’t leave this upload page until “100% complete” shows in the left footer. Video/Audio must have transcoding completed before the next steps are relevant.10.3.4. Then, back on the homepage, click on “Upload Transcripts” (on the top bar)10.3.5. Go through the same process as with the video. Fill in metadata and upload .eaf file. (.eaf file is the ELAN export, which EOPAS accepts along with some other xml formats)10.3.6. Save this transcript record. 10.3.7. Go to "Browse Transcripts” and click on the record you added. 10.3.8. In the top-left corner, click on “link to video record” (NEED TO CHECK THIS) and find the relevant video/audio and select the “Attach” link10.3.9. Go to “Browse Media” &  select the (now transcript-linked) Video/Audio record and copy the URL. 10.4.  Embed the video in Murkutu10.4.1. Sign in as admin to Murkutu10.4.2. click on “Digital Heritage” (on the Murkutu menu options)10.4.3. Create asset then: 10.4.4. add Atom Item by clicking on the “Create a new eopas atom” gold symbol in the scald sidebar 10.4.5. Enter/paste EOPAS URL and fill in basic metadata. 10.4.6. Then from the scald sidebar, you can drag and drop the eopas item into the relevant field in the asset10.4.7. Fill in the metadata. You may also want to consider filling in Additional Metadata (including location). If so, click on Additional Metadata and fill in details. 10.4.8. Click “Save”For Mukurtu Administrators:1. FAQ: Is there a User Guide for Mukurtu? Answer: http://support.mukurtu.org/customer/en/portal/articles/2794448-getting-started-with-mukurtu-cms has a lot of “How to” guides and explanations of the Mukurtu framework. The Mukurtu website is built on Drupal7. 2. FAQ: How do I edit the homepage title ‘NGAN'GI LANGUAGE PRESERVATION’ (& I’m a User with Mukurtu Administration permission)? Answer: Go to Dashboard > (Set up site) > Change site name, slogan and email address https://ngangi-staging.intersect.org.au/admin/config/system/site-information)3. FAQ: I added a photograph and it’s not showing on the “Photographs” tab. Answer: The “Photographs” tab content needs page to be edited directly to make photographs display - i.e. As a mukurtu user, go to https://ngangi-staging.intersect.org.au/photographs-menu#overlay-context= and select edit, and images can be added to the page from the scald interface.4. FAQ: How do I edit the Banner image? Answer: As a mukurtu user, go to Dashboard -> “Set up Site” -> “Change site name, slogan and email address” (https://ngangi-staging.intersect.org.au/dashboard#overlay=admin/config/system/site-information). For Drupal Administrators: 1. Add a Dictionary Word Prerequirement: (to add dictionary word you’ll need to set a few parameters:1.1. Before adding first words for a new language, add a new dictionary if required: 1.1.1. Navigate to Dashboard-> `Enable Dictionary’1.1.2. Once the dictionary is enabled, if preferred, navigate to `Set Default Language` Language1.1.3. Create a Language community from `Manage Language Community`1.1.4. Enter a community name and Click on ‘Save’.1.1.5. Return to Home Page2. FAQ: How can I add a formatted Dictionary word (or edit an unformatted one)Answer:  Only a Drupal Administrator can do this.  2.1. Login as “ngangi” user and in the top navigation menu (the Drupal menu) go to Content > Add Content > Ngangi word2.2. "Kungumurr Headword" is a mandatory field, and will appear as the "Title" for the word. This field has already been formatted programmatically2.3. Add the type of "Word class" e.g. noun or co-verb2.4. The rest of the information relating to the word goes into the "Meaning" field. For this Meaning section to display like other Dictionary words on the site, it requires the user to add the formatting manually when adding the word. To add formatting, select _"Switch to plain text editor"_ from under the "Meaning" field 2.5. Paste in the version of the word as per the formatting/style below in the sample (Sample/template of how a formatted entry displays in the Dictionary: & HTML sample/template of formatted entry for the Dictionary: from “DIM” to end - (I’ve found it’s easiest to go to https://html5-editor.net/ and paste the sample at the end of this guide into the right hand WYSIWYG) and edit/delete to the specific word meanings/usage etc you desire, then copy the right hand html5 version into the “Meaning” field of the “Add word”.2.6. Once editing of the meaning in html is complete, change the "Text format" setting to "Full html".2.7. Select "Save"2.8. Log out as user = ngangi3. FAQ: How can I bulk add multiple Dictionary words from a spreadsheet:3.1. Preconditions:3.1.1. User needs to be able to access https://github.com/IntersectAustralia/ngangi-dictionary-processor3.1.2. User has a spreadsheet of words they want to add in the format the same as I've found the original file that was used in the Filemaker Pro & will add to this story as an example of the formatting of the original file, and also to provide a sample which I can alter to test with. I'll add this original file to https://drive.google.com/drive/u/0/folders/0BxMqy_hJ_wibTTVCeFhIRFl2YjA as well as to this story. Ill check with Ilya re adding in a copy for the future to https://github.com/IntersectAustralia/ngangi-dictionary-processor.3.1.3. User has a working copy of Filemaker Pro (a trial version is fine for 30 days - see http://help.filemaker.com/app/answers/detail/a_id/16168/~/filemaker-free-trial-period).3.2. In Filemaker Pro, process an Original file to an .xlsx format, (for testing purposes, name this like "ngangi_dictionary2_filemaker_export.xlsx" as the export from the filemaker pro database3.3. Then in Excel, export "ngangi_dictionary2_filemaker_export.xlsx" to a tab separated value (tsv) file.3.4. Use the "ngangi_dictionary2_filemaker_export.tsv" file to run https://github.com/IntersectAustralia/ngangi-dictionary-processor to generate the file which is then imported to our Ngan'gi Mukurtu site3.5. Clone the latest from https://github.com/IntersectAustralia/ngangi-dictionary-processor to a local folder3.6. In a Terminal, navigate to the local folder with the cloned Github ngangi-dictionary-processor project3.7. In Terminal $ ruby process.rb ngangi_dictionary2_filemaker_export.tsv #This will give you a file output named like "ngangi_dictionary2_filemaker_export_processed.csv". This is the file that needs to be used in the Ngan'gi Mukurtu site Dictionary importer3.8. Log in to the Ngan'gi website as user = ngangi (or other user with Drupal privilege)3.9. In Drupal Menu go to Structure > Feed Importers 3.10. At the top of the Feed Importers page (e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=admin/structure/feeds) there's a blue link "Import" - select this link which will navigate to the Import page e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import3.11. Select "Ngangi Word Importer" which will navigate to e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import/ngangi_word_importer3.12. Upload your processed .csv file (e.g. ngangi_dictionary2_filemaker_export_processed.csv from our example).Note: https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import/ngangi_word_importer also shows a link to "Download a template" which downloads a .csv file with the headers required for any Ngangi word csv import).4. FAQ: Can I do batch/bulk uploads (e.g. of Photos)? Answer: https://meet.mukurtu.net/digital-heritage/batch-importing-mukurtu-cms has a video and pdf (pdf also at Mukurtu Bulk Upload Training pdf) showing users how to do batch uploads.[1]5. FAQ: How do I backup the website?5.1. Answer: [2]Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user and in the top navigation menu (the Drupal menu) select Configuration -> System -> Backup and Migrate and follow as per How to use Drupal's Backup Migrate module | lynda.com tutorial ...6. FAQ: How can I change the font on the website? 6.1. Answer: [3]Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user and in the top navigation menu (the Drupal menu) select Appearance > Settings > Scholarly Lite.    Scroll down this page and select “Font Settings”  - from here you can select options and then select “Save configuration” if you want to keep changes, or “Revert theme settings” if you want to go back to the previous style. Once decided and saved, Logout as this User!7. FAQ: What if I want to edit the layout on a page? 7.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user and in the top navigation menu (the Drupal menu) select -> Content. Select the page you want to edit from the content list and select “Edit”. Toe change the layout of the page, select the “Manage Display” tab (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .  Once decided and saved, Logout as this User!8. FAQ: How do I create a Content Block? 8.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user and in the top navigation menu (the Drupal menu) select -> Structure -> Blocks -> Add Block. 8.2. <block area> (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .where on page to display the block)8.3. Once decided and saved, Logout as this User!8.4. FAQ: How do I move a Content Block? 8.4.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user and in the top navigation menu (the Drupal menu) select -> Structure -> Blocks -> Add Block. 8.4.2. <block area> (see (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .where on page to display the block)8.4.3. Once decided and saved, Logout as this User!8.5. FAQ: I want Users to be able to comment on particular pages. How do I do this?8.5.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as “ngangi” user 8.5.2. To see the current Permission to make Comments on the site, select “Permissions” in the top navigation menu (top Drupal menu> People -> Permissions). Enter “Comments” in the filter>  8.5.3. To change the Comment settings for a particular page/item, go to the top navigation menu (the Drupal menu) & select -> Content. 8.5.4. Find the Page/Item in the content list and click on it and go to the Edit tab.8.5.5. Scroll to the bottom of the page/item until you see “Comment settings” at the bottom of the page. Select “Open” or “Closed” and “Save”.8.5.6. Once decided and saved, Logout as this User!8.5.7. Note: Dictionary page and items can’t be commented because of the way the page is structured.9. FAQ: How can I learn more about Drupal? 9.1. Answer: Only a Drupal Administrator can administer the Drupal content for the Ngan’gi website. The following guides are available: https://ngangi-staging.intersect.org.au/admin/help or  https://www.drupal.org/docs/user_guide/en/index.html for Drupal tips and help guides. Googling for Drupal solutions is usually great too as the Drupal community is large & contributive.Sample/template of how a formatted entry displays in the Dictionary:TYERRAKULWord Class: coverbDIMWord Class:verb intrMeaning:Talk, speak, have a conversation.Kurungurr Example:Ngan'gikurunggurr yiwingindi tyerrakul!Talk Ngan'gikurunggurr to me!YENIMWord Class:verb intrMeaning:Talk habitually, speak a language.Kurungurr Example:Ngan'gi weti napa ngaganim tyerrakul.I speak a little Ngan'gikurunggurr.WIRRIBEMWord Class:verb intrMeaning:Talk in your head, the unvoiced talking that goes on inside your head.Kurungurr Example:Pipiri napa fenggiderri wirribem tyerrakul ngidde.My mind's been mulling over this for a long time.HTML sample/template of formatted entry for the Dictionary:(Note: the word “Tyerrakul” 9in this sample would be entered as the Headword. The following would be pasted in the “Meaning” field)<div class="field ng-complement">dim</div><div class="label-ng">Word Class:</div><a href="/word-class/verb intr" property="prefLabel" typeof="Concept">verb intr</a><p>&nbsp;</p><div class="label-ng">Meaning:</div><p>&nbsp;</p><div class="field ng-meaning">Talk, speak, have a conversation.</div><p>&nbsp;</p><div class="label-ng">Kurungurr Example:</div><p>&nbsp;</p><div class="field ng-example">Ngan'gikurunggurr yiwingindi tyerrakul!</div><p>&nbsp;</p><div class="field ng-translation">Talk Ngan'gikurunggurr to me!</div><p>&nbsp;</p><div class="field ng-complement">yenim</div><p>&nbsp;</p><div class="label-ng">Word Class:</div><p>verb intr</p><div class="label-ng">Meaning:</div><p>&nbsp;</p><div class="field ng-meaning">Talk habitually, speak a language.</div><p>&nbsp;</p><div class="label-ng">Kurungurr Example:</div><p>&nbsp;</p><div class="field ng-example">Ngan'gi weti napa ngaganim tyerrakul.</div><p>&nbsp;</p><div class="field ng-translation">I speak a little Ngan'gikurunggurr.</div><p>&nbsp;</p><div class="field ng-complement">wirribem</div><p>&nbsp;</p><div class="label-ng">Word Class:</div><p>verb intr</p><div class="label-ng">Meaning:</div><p>&nbsp;</p><div class="field ng-meaning">Talk in your head, the unvoiced talking that goes on inside your head.</div><p>&nbsp;</p><div class="label-ng">Kurungurr Example:</div><p>&nbsp;</p><div class="field ng-example">Pipiri napa fenggiderri wirribem tyerrakul ngidde.</div><p>&nbsp;</p><div class="field ng-translation">My mind's been mulling over this for a long time.</div><p>&nbsp;</p>Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?NGAN'GI LANGUAGE PRESERVATION:Tips & FAQs for Administrators7
+##Index
+For general logged-in Contributors:
+General Principles on the website for Communities, Collections and Protocols:
+Communities, Cultural Protocols, Categories
+To add items (Photographs, Videos, Audio):
+Add Digital Heritage Item
+Create Collections (or select an existing one):
+Add an unformatted Dictionary Word:
+For Community Administrators:
+To create a Community (or select an existing one)
+To create a Protocol: (or Selecting existing Protocols)
+Add People:
+For more information on how the SCALD library works 
+FAQ: How can I add an EOPAS item?
+For Mukurtu Administrators:
+FAQ: Is there a User Guide for Mukurtu? 
+FAQ: How do I edit the homepage title √îNGAN'GI LANGUAGE PRESERVATION√ï 
+FAQ: I added a photograph and it√ïs not showing on the √íPhotographs√ì tab. 
+FAQ: How do I edit the Banner image? 
+For Drupal Administrators:
+Add a Dictionary Word 
+FAQ: How can I add a formatted Dictionary word (or edit an unformatted one)
+FAQ: How do I backup the website?
+FAQ: How can I change the font on the website?
+FAQ: What if I want to edit the layout on a page?
+FAQ: How do I create a Content Block?
+FAQ: How do I move a Content Block?
+FAQ: How can I learn more about Drupal?
+Sample/template of how a formatted entry displays in the Dictionary: TYERRAKUL
+HTML sample/template of formatted entry for the Dictionary:
+
+## Ngan'gi Website: Tips and FAQs
+
+Note: Once released to production, all ngan√ïgi urls in this document should be updated from https://ngangi-staging.intersect.org.au to the Production url.
+For general logged-in Contributors:
+1. General Principles on the website for Communities, Collections and Protocols: 
+1.1. Communities 
+1.1.1. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed. Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.
+1.1.2. Each community represents a group of content contributors and site users and contains digital heritage items relevant to those community members. User access to individual digital heritage items within a community is managed through the use of cultural protocols that are created within the community.
+1.1.3. Some examples of communities could be specific families or clans, tribal government departments, or a space for youth-appropriate content.
+1.2. Cultural Protocols 
+1.2.1. Each cultural protocol exists within a community, and each community can have multiple cultural protocols. Digital heritage items are placed within at least one cultural protocol and can then be viewed by users who are also members of those protocols.
+1.2.2. There are two types of cultural protocols: open and strict. Digital heritage items within an open protocol can be viewed by anyone (including anonymous site visitors), while items within a strict protocol can only be viewed by members of that protocol. Multiple protocols can be layered to ensure that users can only view items appropriate for them, and to provide very granular access. For example, if an item is part of the two strict protocols √îWomen Only√ï and √îElders Only,√ï then only users who are members of both the √îWomen Only√ï and √îElders Only√ï protocols can view that item.
+1.2.3. Some examples of cultural protocols could be gender-based (male only, female only), age-based (elders only, no youth), seasonal access only, clan or tribal affiliation, secret/sacred, community only, or public access/open.
+1.3. Categories 
+1.3.1. Categories are terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For example, √îFishing√ï or √îFood√ï may make good categories as they could apply to a range of items, but √îsalmon√ï may not make a good category, as it is likely to only apply to a small number of items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article Using Categories and Keywords.
+1.3.2. Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.
+1.3.3. Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artifacts.
+2. TIP: http://mukurtu.org/mobile/ ? with Apple & Android downloads may make data editing easier on devices. ?There's a Help Guide at https://github.com/MukurtuCMS/mukurtu-mobile/wiki/02_User's-Guide?, but we√ïve noticed in a quick look through that the only way to publish Videos from the app (at the time of writing this help guide)  is via a YouTube login, so ?possibly it won't suit all User√ïs purposes, but we think worth a look to see if it makes mobile usage any easier for you.
+3. To add items (Photographs, Videos, Audio):
+3.1. create a Community (or select an existing one)
+3.1.1. To add Community navigate to √î+ Community√ï on Home page or Click on √îDashboard√ï on Home page and click on Communities-> √îCreate Community√ï.
+3.1.2. At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).
+3.1.3. To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the Community√ïs page content or you can add new images.(SCALD Media Manager)
+3.1.4. Click on Add files; choose a picture from your computer.
+3.1.5. Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.
+3.1.6. If a protocol is already generated, select a protocol from drop down menu.
+3.1.7. Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).
+3.1.8. Add other details regarding thumbnail image.
+3.1.9. A license and category can be added.
+3.1.10. Click on √îFinish√ï. The image will appear on the right hand side panel of the screen.
+3.1.11. Click and Drag the image to Thumbnail image space, or select it and √íInsert√ì if your browser won√ït support Click and Drag.
+3.1.12. Also, check Publishing options and select `Published√ï - This only publishes the data just filled to this Community√ïs page.
+3.2. Add Digital Heritage Item 
+3.2.1. Add Digital Heritage item from `+ Digital Heritage` from home page or Navigate to Dashboard and click on `Add Digital Heritage item√ï under Content and Collections
+3.2.2. Enter Digital Item Heritage√ïs Title, summary
+3.2.3. Add images/videos (same as adding SCALD media for 3.2 above)
+3.2.4. Choose protocol, community and which category it belongs to
+3.2.5. To add Labels, License : Click on Rights and Permission tab -select labels, permissions etc.
+3.2.6. To add Additional Metadata - Select `Additional Meta Data`tab from `Additional Metadata` 
+3.3. Create Collections (or select an existing one):
+3.3.1. Click on `+Collection` or navigate to Content and Collections and click on `Create a collection`
+3.3.2. Fill in Collection name and other basic data
+3.3.3. Navigate to Digital Heritage Items tab
+3.3.4. Add media from SCALD (Same as adding media for 3.2 above)
+3.4. Add an unformatted Dictionary Word:
+3.4.1. Click on add `+ Dictionary word` on home page
+3.4.1.1. Fill in necessary information, change to √îRelations√ï tab & fill necessary information.
+3.4.1.2. Click on √îSave√ï.
+3.4.1.3. An Administrator will review the site from time to time, and can format any added words to match the other Dictionary entries on the site.
+3.5. Searching words in the Dictionary search frame. The dictioanary is capable of searching using basic regular expression searches (regex). For mor information about these, see: http://www.rexegg.com/regex-quickstart.html
+
+For Community Administrators:
+
+1. Before adding a Community, Collection or Protocol, see Principles of Communities, Collections and Protocols:
+To see how Communities, Collections and protocols are constructed on the website, 
+       see https://ngangi-staging.intersect.org.au/dashboard/communities
+2. To create a Community (or select an existing one)
+2.1. To add Community navigate to √î+ Community√ï on Home page or Click on √îDashboard√ï on Home page and click on Communities-> √îCreate Community√ï.
+2.2. At the bottom of the page click on Comment Settings to set commenting option for authenticated users. (Select open or close). (By default it is open).
+2.3. To add thumbnail images/media with community name: While in the Add/Edit Community, click on SCALD (the grey button on centre right side of the screen). Select type of media e.g. images button (3rd option vertically); previously uploaded images will show here and can be used for the Community√ïs page content or you can add new images.(SCALD Media Manager)
+2.4. Click on Add files; choose a picture from your computer.
+2.5. Click on Start upload - when you see status as 100% scroll down on the same opened window, and click on Continue.
+2.6. If a protocol is already generated, select a protocol from drop down menu.
+2.7. Identifier is a unique name for the image. (It is a good practice to have identifiers for each media item uploaded).
+2.8. Add other details regarding thumbnail image.
+2.9. A license and category can be added.
+2.10. Click on √îFinish√ï. The image will appear on the right hand side panel of the screen.
+2.11. Click and Drag the image to Thumbnail image space, or select it and √íInsert√ì if your browser won√ït support Click and Drag.
+2.12. Also, check Publishing options and select `Published√ï - This only publishes the data just filled to this Community√ïs page.
+3. To create a Protocol:
+3.1. To add Protocols (User must have Community Administrator permission) navigate to `+ Cultural Protocol` on home page.
+3.2. Fill in necessary details like Name, Accessibility of the protocol, parent community.
+3.3. Select parent community and click on √îSave√ï.
+4. Selecting existing Protocols
+4.1. To see Protocols that have already been created, go to https://ngangi-staging.intersect.org.au/dashboard/communities. Alternatively, select √îContent√ï (Drupal top leftt corner if an admin user). A list should appear of all the content items created, including √îProtocols√ï. Protocols are categorised under √îType√ï as √îCultural Protocols√ï
+4.2. Select a Protocol to explore configurations and settings.
+5. Add People:
+5.1. Click on People on Home Screen
+5.2. Click on `+Add User`
+5.3. Fill necessary information with Role for the User.
+5.4. You can also notify user via email (Click on Tick box provided)
+5.5. Click √îSave√ï.
+5.6. FAQ: I want to add a user who doesn√ït have an email address. Answer: If you need to add someone who doesn√ït have an email, you can create a temporary email mailbox by using <anyname>@mailinator.com. When the system sends out the welcome email to set up their password/account, go to https://www.mailinator.com/  and enter in the address you√ïve used. That email will stay available at mailinator for a few hours. If the user needs to recover a password, the same method of go to https://www.mailinator.com/  and enter in the address they√ïve used will also allow the user to recover an account.
+
+6. For more information on how the SCALD library works for uploading content for the website see good tutorials, presentations and & podcasts about SCALD,available at https://www.drupal.org/node/2101885
+7. FAQ: As a Community Administrator, It√ïs not obvious to me how I control what a community sees. Can I specify that an item is visible to all communities by specifying all, or by not specifying any? Answer: 
+7.1. Specific to Ngan'gi site: https://ngangi-staging.intersect.org.au./dashboard/communities shows specifically how your own Communities > Protocols  are currently working, with Edit links to each Protocol
+7.2. http://support.mukurtu.org/customer/en/portal/articles/2430079-how-do-user-roles-and-permissions-work- gives a good overview on how Permissions/Communities/Protocols work, and the linked MukurtuUserRoles_PermissionMatrix.pdf shows a further overview of how the Permissions work on the site.
+8. FAQ: I√ïve created a new community and want to invite someone to join. There√ïs both √îAdd Members√ï and  √îInvite Users√ï tabs, but both state the email address I enter to be √îthe following user does not exist√ï. Need my invited guest already be a user before being an invitee? Can I invite a User unknown to the website? Answer: No, the invitee needn't be logged into the system first if you are an Administrator. To invite a new user:  
+8.1. Logged in, from homepage, use "+ User" link in main navigation should take you to https://ngangi-staging.intersect.org.au/admin/people/create. Here you can add a not-previously-logged User, assign them roles, and add them directly to a Community (or more than one). They'll receive an email which has a link to access the site where they can create their own password. 
+8.2. Alternatively, from Dashboard (https://.../dashboard),  go to (Site Users) -> Add User -> https://ngangi-staging.intersect.org.au/admin/people/create. 
+8.3. Once a user is in the system, you can additionally add them to a Community/Protocol via that Community/Protocol  > Edit > Invite
+9. FAQ: I√ïve figured out the Scald Library, and have successfully added an image to it and then accessed that image to add it to a Digital Heritage item. That item was a photo, but it doesn√ït automatically appear under the √îPhotographs√ï tab. Answer: If you want photos to show to all site visitors e.g. via the "Photographs" link, you need permission to edit the "Photographs" page directly and add/delete photos as usual (by adding through Scald) - Note though, the √íPhotographs√ì page is currently visible to every visitor to the site, even unlogged users . 
+9.1. Permissions may be added to individual photographs if/as they're added as Digital Heritage Items to only display to certain Community/Protocol members. To subsequently view these content items you need to be  a member of the nominated Community/Protocol to enable access to them.
+9.2. There's probably several ways to do this, but one way to review what you've already added to Scald is to is to go to Dashboard >  (Content and Collections) > View Media (https://ngangi-staging.intersect.org.au/admin/content/atoms)
+9.3. This differ?s from the 'Audio-Video' link which updates with anything that's been added as a "+ Digital Heritage" item
+10. FAQ: How can I add an EOPAS item?
+10.1.1. Precondition 1: The following is assuming the files being uploaded have been processed by ELAN software - See https://tla.mpi.nl/tools/tla-tools/elan/ for ELAN download and User guides for ELAN) 
+10.1.2. Precondition 2: Video & Audio files able to be uploaded  to EOPAS:  wav, mp3, mov, mp4 (these will be transcoded to the (ogg) streaming format - future plans include transcoding to WebM and MP4, but these are not available in the current version of EOPAS). Please be patient as it can take a few minutes to complete the uploading and transcoding process.
+10.2. As a user with permission to upload to EOPAS, go to <insert Production url> (https://eopas-staging.intersect.org.au/ for Demo). User may have to register and you√ïll receive an email which will give them access to the site)
+10.3. Once logged into the EOPAS server:
+10.3.1. Click on √íUpload media√ì (on the top bar)
+10.3.2. Fill in the basic metadata fields and upload the video file (.wav or .mp4). 
+10.3.3. Save this video record. This may take a few minutes to upload so be patient. Don√ït leave this upload page until √í100% complete√ì shows in the left footer. Video/Audio must have transcoding completed before the next steps are relevant.
+10.3.4. Then, back on the homepage, click on √íUpload Transcripts√ì (on the top bar)
+10.3.5. Go through the same process as with the video. Fill in metadata and upload .eaf file. (.eaf file is the ELAN export, which EOPAS accepts along with some other xml formats)
+10.3.6. Save this transcript record. 
+10.3.7. Go to "Browse Transcripts√ì and click on the record you added. 
+10.3.8. In the top-left corner, click on √ílink to video record√ì (NEED TO CHECK THIS) and find the relevant video/audio and select the √íAttach√ì link
+10.3.9. Go to √íBrowse Media√ì &  select the (now transcript-linked) Video/Audio record and copy the URL. 
+10.4.  Embed the video in Murkutu
+10.4.1. Sign in as admin to Murkutu
+10.4.2. click on √íDigital Heritage√ì (on the Murkutu menu options)
+10.4.3. Create asset then: 
+10.4.4. add Atom Item by clicking on the √íCreate a new eopas atom√ì gold symbol in the scald sidebar 
+10.4.5. Enter/paste EOPAS URL and fill in basic metadata. 
+10.4.6. Then from the scald sidebar, you can drag and drop the eopas item into the relevant field in the asset
+10.4.7. Fill in the metadata. You may also want to consider filling in Additional Metadata (including location). If so, click on Additional Metadata and fill in details. 
+10.4.8. Click √íSave√ì
+For Mukurtu Administrators:
+1. FAQ: Is there a User Guide for Mukurtu? Answer: http://support.mukurtu.org/customer/en/portal/articles/2794448-getting-started-with-mukurtu-cms has a lot of √íHow to√ì guides and explanations of the Mukurtu framework. The Mukurtu website is built on Drupal7. 
+2. FAQ: How do I edit the homepage title √îNGAN'GI LANGUAGE PRESERVATION√ï (& I√ïm a User with Mukurtu Administration permission)? Answer: Go to Dashboard > (Set up site) > Change site name, slogan and email address https://ngangi-staging.intersect.org.au/admin/config/system/site-information)
+3. FAQ: I added a photograph and it√ïs not showing on the √íPhotographs√ì tab. Answer: The √íPhotographs√ì tab content needs page to be edited directly to make photographs display - i.e. As a mukurtu user, go to https://ngangi-staging.intersect.org.au/photographs-menu#overlay-context= and select edit, and images can be added to the page from the scald interface.
+4. FAQ: How do I edit the Banner image? Answer: As a mukurtu user, go to Dashboard -> √íSet up Site√ì -> √íChange site name, slogan and email address√ì (https://ngangi-staging.intersect.org.au/dashboard#overlay=admin/config/system/site-information). 
+
+For Drupal Administrators: 
+1. Add a Dictionary Word Prerequirement: (to add dictionary word you√ïll need to set a few parameters:
+1.1. Before adding first words for a new language, add a new dictionary if required: 
+1.1.1. Navigate to Dashboard-> `Enable Dictionary√ï
+1.1.2. Once the dictionary is enabled, if preferred, navigate to `Set Default Language` Language
+1.1.3. Create a Language community from `Manage Language Community`
+1.1.4. Enter a community name and Click on √îSave√ï.
+1.1.5. Return to Home Page
+2. FAQ: How can I add a formatted Dictionary word (or edit an unformatted one)
+Answer:  Only a Drupal Administrator can do this.  
+2.1. Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) go to Content > Add Content > Ngangi word
+2.2. "Kungumurr Headword" is a mandatory field, and will appear as the "Title" for the word. This field has already been formatted programmatically
+2.3. Add the type of "Word class" e.g. noun or co-verb
+2.4. The rest of the information relating to the word goes into the "Meaning" field. For this Meaning section to display like other Dictionary words on the site, it requires the user to add the formatting manually when adding the word. To add formatting, select _"Switch to plain text editor"_ from under the "Meaning" field 
+2.5. Paste in the version of the word as per the formatting/style below in the sample (Sample/template of how a formatted entry displays in the Dictionary: & HTML sample/template of formatted entry for the Dictionary: from √íDIM√ì to end - (I√ïve found it√ïs easiest to go to https://html5-editor.net/ and paste the sample at the end of this guide into the right hand WYSIWYG) and edit/delete to the specific word meanings/usage etc you desire, then copy the right hand html5 version into the √íMeaning√ì field of the √íAdd word√ì.
+2.6. Once editing of the meaning in html is complete, change the "Text format" setting to "Full html".
+2.7. Select "Save"
+2.8. Log out as user = ngangi
+3. FAQ: How can I bulk add multiple Dictionary words from a spreadsheet:
+3.1. Preconditions:
+3.1.1. User needs to be able to access https://github.com/IntersectAustralia/ngangi-dictionary-processor
+3.1.2. User has a spreadsheet of words they want to add in the format the same as I've found the original file that was used in the Filemaker Pro & will add to this story as an example of the formatting of the original file, and also to provide a sample which I can alter to test with. I'll add this original file to https://drive.google.com/drive/u/0/folders/0BxMqy_hJ_wibTTVCeFhIRFl2YjA as well as to this story. Ill check with Ilya re adding in a copy for the future to https://github.com/IntersectAustralia/ngangi-dictionary-processor.
+3.1.3. User has a working copy of Filemaker Pro (a trial version is fine for 30 days - see http://help.filemaker.com/app/answers/detail/a_id/16168/~/filemaker-free-trial-period).
+3.2. In Filemaker Pro, process an Original file to an .xlsx format, (for testing purposes, name this like "ngangi_dictionary2_filemaker_export.xlsx" as the export from the filemaker pro database
+3.3. Then in Excel, export "ngangi_dictionary2_filemaker_export.xlsx" to a tab separated value (tsv) file.
+3.4. Use the "ngangi_dictionary2_filemaker_export.tsv" file to run https://github.com/IntersectAustralia/ngangi-dictionary-processor to generate the file which is then imported to our Ngan'gi Mukurtu site
+3.5. Clone the latest from https://github.com/IntersectAustralia/ngangi-dictionary-processor to a local folder
+3.6. In a Terminal, navigate to the local folder with the cloned Github ngangi-dictionary-processor project
+3.7. In Terminal $ ruby process.rb ngangi_dictionary2_filemaker_export.tsv #This will give you a file output named like "ngangi_dictionary2_filemaker_export_processed.csv". This is the file that needs to be used in the Ngan'gi Mukurtu site Dictionary importer
+3.8. Log in to the Ngan'gi website as user = ngangi (or other user with Drupal privilege)
+3.9. In Drupal Menu go to Structure > Feed Importers 
+3.10. At the top of the Feed Importers page (e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=admin/structure/feeds) there's a blue link "Import" - select this link which will navigate to the Import page e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import
+3.11. Select "Ngangi Word Importer" which will navigate to e.g. https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import/ngangi_word_importer
+3.12. Upload your processed .csv file (e.g. ngangi_dictionary2_filemaker_export_processed.csv from our example).
+Note: https://ngangi-staging.intersect.org.au/node/3101/edit#overlay=import/ngangi_word_importer also shows a link to "Download a template" which downloads a .csv file with the headers required for any Ngangi word csv import).
+4. FAQ: Can I do batch/bulk uploads (e.g. of Photos)? Answer: https://meet.mukurtu.net/digital-heritage/batch-importing-mukurtu-cms has a video and pdf (pdf also at Mukurtu Bulk Upload Training pdf) showing users how to do batch uploads.[1]
+5. FAQ: How do I backup the website?
+5.1. Answer: [2]Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) select Configuration -> System -> Backup and Migrate and follow as per How to use Drupal's Backup Migrate module | lynda.com tutorial ...
+6. FAQ: How can I change the font on the website? 
+6.1. Answer: [3]Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) select Appearance > Settings > Scholarly Lite.    Scroll down this page and select √íFont Settings√ì  - from here you can select options and then select √íSave configuration√ì if you want to keep changes, or √íRevert theme settings√ì if you want to go back to the previous style. Once decided and saved, Logout as this User!
+7. FAQ: What if I want to edit the layout on a page? 
+7.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) select -> Content. Select the page you want to edit from the content list and select √íEdit√ì. Toe change the layout of the page, select the √íManage Display√ì tab (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .  Once decided and saved, Logout as this User!
+8. FAQ: How do I create a Content Block? 
+8.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) select -> Structure -> Blocks -> Add Block. 
+8.2. <block area> (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .where on page to display the block)
+8.3. Once decided and saved, Logout as this User!
+8.4. FAQ: How do I move a Content Block? 
+8.4.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user and in the top navigation menu (the Drupal menu) select -> Structure -> Blocks -> Add Block. 
+8.4.2. <block area> (see (Note: To understand the content block areas, see https://ngangi-staging.intersect.org.au/admin/structure/block/demo/scholarly_lite#overlay-context=) .where on page to display the block)
+8.4.3. Once decided and saved, Logout as this User!
+8.5. FAQ: I want Users to be able to comment on particular pages. How do I do this?
+8.5.1. Answer: Only a Drupal Administrator can do this.  Warning: ensure you have a backup before making changes as this powerful User! Login as √íngangi√ì user 
+8.5.2. To see the current Permission to make Comments on the site, select √íPermissions√ì in the top navigation menu (top Drupal menu> People -> Permissions). Enter √íComments√ì in the filter>  
+8.5.3. To change the Comment settings for a particular page/item, go to the top navigation menu (the Drupal menu) & select -> Content. 
+8.5.4. Find the Page/Item in the content list and click on it and go to the Edit tab.
+8.5.5. Scroll to the bottom of the page/item until you see √íComment settings√ì at the bottom of the page. Select √íOpen√ì or √íClosed√ì and √íSave√ì.
+8.5.6. Once decided and saved, Logout as this User!
+8.5.7. Note: Dictionary page and items can√ït be commented because of the way the page is structured.
+9. FAQ: How can I learn more about Drupal? 
+9.1. Answer: Only a Drupal Administrator can administer the Drupal content for the Ngan√ïgi website. The following guides are available: https://ngangi-staging.intersect.org.au/admin/help or  https://www.drupal.org/docs/user_guide/en/index.html for Drupal tips and help guides. Googling for Drupal solutions is usually great too as the Drupal community is large & contributive.
+Sample/template of how a formatted entry displays in the Dictionary:
+TYERRAKUL
+Word Class: 
+coverb
+DIM
+Word Class:
+verb intr
+Meaning:
+Talk, speak, have a conversation.
+Kurungurr Example:
+Ngan'gikurunggurr yiwingindi tyerrakul!
+Talk Ngan'gikurunggurr to me!
+YENIM
+Word Class:
+verb intr
+Meaning:
+Talk habitually, speak a language.
+Kurungurr Example:
+Ngan'gi weti napa ngaganim tyerrakul.
+I speak a little Ngan'gikurunggurr.
+WIRRIBEM
+Word Class:
+verb intr
+Meaning:
+Talk in your head, the unvoiced talking that goes on inside your head.
+Kurungurr Example:
+Pipiri napa fenggiderri wirribem tyerrakul ngidde.
+My mind's been mulling over this for a long time.
+
+HTML sample/template of formatted entry for the Dictionary:
+(Note: the word √íTyerrakul√ì 9in this sample would be entered as the Headword. The following would be pasted in the √íMeaning√ì field)
+
+<div class="field ng-complement">dim</div>
+<div class="label-ng">Word Class:</div>
+<a href="/word-class/verb intr" property="prefLabel" typeof="Concept">verb intr</a>
+<p>&nbsp;</p>
+<div class="label-ng">Meaning:</div>
+<p>&nbsp;</p>
+<div class="field ng-meaning">Talk, speak, have a conversation.</div>
+<p>&nbsp;</p>
+<div class="label-ng">Kurungurr Example:</div>
+<p>&nbsp;</p>
+<div class="field ng-example">Ngan'gikurunggurr yiwingindi tyerrakul!</div>
+<p>&nbsp;</p>
+<div class="field ng-translation">Talk Ngan'gikurunggurr to me!</div>
+<p>&nbsp;</p>
+<div class="field ng-complement">yenim</div>
+<p>&nbsp;</p>
+<div class="label-ng">Word Class:</div>
+<p>verb intr</p>
+<div class="label-ng">Meaning:</div>
+<p>&nbsp;</p>
+<div class="field ng-meaning">Talk habitually, speak a language.</div>
+<p>&nbsp;</p>
+<div class="label-ng">Kurungurr Example:</div>
+<p>&nbsp;</p>
+<div class="field ng-example">Ngan'gi weti napa ngaganim tyerrakul.</div>
+<p>&nbsp;</p>
+<div class="field ng-translation">I speak a little Ngan'gikurunggurr.</div>
+<p>&nbsp;</p>
+<div class="field ng-complement">wirribem</div>
+<p>&nbsp;</p>
+<div class="label-ng">Word Class:</div>
+<p>verb intr</p>
+<div class="label-ng">Meaning:</div>
+<p>&nbsp;</p>
+<div class="field ng-meaning">Talk in your head, the unvoiced talking that goes on inside your head.</div>
+<p>&nbsp;</p>
+<div class="label-ng">Kurungurr Example:</div>
+<p>&nbsp;</p>
+<div class="field ng-example">Pipiri napa fenggiderri wirribem tyerrakul ngidde.</div>
+<p>&nbsp;</p>
+<div class="field ng-translation">My mind's been mulling over this for a long time.</div>
+<p>&nbsp;</p>
+
+Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?
+Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?
+Only applies if we're using the relevant version of Mukurtu. Darshan, can you check if this is relevant?
+NGAN'GI LANGUAGE PRESERVATION:
+Tips & FAQs for Administrators
+
+7
+
