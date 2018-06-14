@@ -2,11 +2,10 @@
 # User manual: [Ngan'gi Language Preservation](https://ngangi.net)
 ## General notes
 
+Contents:
 * [Communities](#communities)
 * [Cultural Protocols](#cultural-protocols)
 * [Categories](#categories)
-
-
 
 
 ### Communities
@@ -36,3 +35,7 @@
 [[REVIEW]]
 An Administrator will review the site from time to time, and can format any added words to match the other Dictionary entries on the site.
 Searching words in the Dictionary search frame. The dictioanary is capable of searching using basic regular expression searches (regex). For mor information about these, see: http://www.rexegg.com/regex-quickstart.html
+
+
+### SCALD Library
+For more information on how the SCALD library works for uploading content for the website see good tutorials, presentations and & podcasts about SCALD, available at https://www.drupal.org/node/2101885

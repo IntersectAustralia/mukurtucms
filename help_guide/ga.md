@@ -1,13 +1,13 @@
 # User manual: [Ngan'gi Language Preservation](https://ngangi.net)
-## To add items
+## General Administrators
 
+Contents:
 * [Create a Community](#create-a-community)
 * [Add a Digital Heritage Item](#add-a-digital-heritage-item)
 * [Create a Collection](#create-a-collection)
 * [Add a Dictionary Word](#add-a-dictionary-word)
 
-
-
+## Adding items
 ### Create a Community
 
 1. To add Community navigate to `+ Community` on homepage or click on `Dashboard` on homepage and click on `Communities`-> `Create Community`.
