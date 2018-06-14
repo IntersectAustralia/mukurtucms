@@ -30,3 +30,9 @@
 
 * Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.
 * Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artefacts.
+
+### Dictionary words
+
+[[REVIEW]]
+An Administrator will review the site from time to time, and can format any added words to match the other Dictionary entries on the site.
+Searching words in the Dictionary search frame. The dictioanary is capable of searching using basic regular expression searches (regex). For mor information about these, see: http://www.rexegg.com/regex-quickstart.html
