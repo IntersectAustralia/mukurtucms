@@ -1,13 +1,13 @@
 
-# User manual
-## Ngan'gi Language Preservation
+# User manual: [Ngan'gi Language Preservation](https://ngangi.net)
+## General notes
 
 * [Communities](#communities)
 * [Cultural Protocols](#cultural-protocols)
 * [Categories](#categories)
 
 
-## General notes
+
 
 ### Communities
 * Communities can be large or small, public or private, and your Mukurtu site can have as many communities as needed.

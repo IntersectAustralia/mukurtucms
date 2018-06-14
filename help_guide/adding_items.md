@@ -1,12 +1,12 @@
-# User manual
-## [Ngan'gi Language Preservation](https://ngangi.net)
+# User manual: [Ngan'gi Language Preservation](https://ngangi.net)
+## To add items
 
 * [Create a Community](#create-a-community)
 * [Add a Digital Heritage Item](#add-a-digital-heritage-item)
 * [Create a Collection](#create-a-collection)
 * [Add a Dictionary Word](#add-a-dictionary-word)
 
-## To add items
+
 
 ### Create a Community
 
