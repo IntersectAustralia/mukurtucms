@@ -25,8 +25,8 @@
 * Some examples of cultural protocols could be gender-based (male only, female only), age-based (elders only, no youth), seasonal access only, clan or tribal affiliation, secret/sacred, community only, or public access/open.
 
 ### Categories
-* Categories are metadata terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article Using Categories and Keywords.
+* Categories are metadata terms that describe your digital heritage items. They should be broad enough that each item on your site is represented by at least one category and so each category describes many items. For narrower or more specialized terms, consider using keywords. More information about keywords is available in the support article [Using Categories and Keywords](http://support.mukurtu.org/customer/en/portal/articles/2430094-using-categories-and-keywords).
 > For example, ‘Fishing’ or ‘Food’ may make good categories as they could apply to a range of items, but ‘salmon’ may not make a good category, as it is likely to only apply to a small number of items.
 
 * Most Mukurtu sites usually have around 10-15 categories, but the categories chosen should reflect the collection and users.
-* Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artifacts.
+* Some examples of commonly used categories include Lifeways, Education, Lands, Architecture and Dwellings, Language, Ceremony, and Artistry and Artefacts.
