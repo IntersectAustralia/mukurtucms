@@ -3,10 +3,11 @@
 
 Content:
 * [Adding an EOPAS video](#adding-eopas-video-with-elan-transcript)
-* [Linking EOPAS video to Murkutu](#linking-EOPAS-video-to-murkutu)
+* [Linking EOPAS video to Murkutu](#linking-eopas-video-to-murkutu)
 
 ## Adding EOPAS video with ELAN transcript
 **Precondition 1:** The following is assuming the files being uploaded have been processed by ELAN software - See https://tla.mpi.nl/tools/tla-tools/elan/ for ELAN download and User guides for ELAN)
+
 **Precondition 2:** Video & Audio files able to be uploaded  to EOPAS:  wav, mp3, mov, mp4 (these will be transcoded to the (ogg) streaming format - future plans include transcoding to WebM and MP4, but these are not available in the current version of EOPAS). Please be patient as it can take a few minutes to complete the uploading and transcoding process.
 
 As a user with permission to upload to EOPAS, go to [EOPAS.ngangi](https://eopas.ngangi.net/login). (User may have to register and you’ll receive an email which will give them access to the site)

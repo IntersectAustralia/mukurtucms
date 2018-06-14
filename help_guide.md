@@ -24,4 +24,4 @@
 
 ## EOPAS Administrators
 * [Adding an EOPAS video](help_guide/ea.md#adding-eopas-video-with-elan-transcript)
-* [Linking EOPAS video to Murkutu](help_guide/ea.md#linking-EOPAS-video-to-murkutu)
+* [Linking EOPAS video to Murkutu](help_guide/ea.md#linking-eopas-video-to-murkutu)
