@@ -35,4 +35,4 @@ Some general notes about key terms used by the Murkutu application, which Ngan'g
 * [Adding an EOPAS video](help_guide/ea.md#adding-eopas-video-with-elan-transcript)
 * [Linking EOPAS video to Murkutu](help_guide/ea.md#linking-eopas-video-to-murkutu)
 
-### For Drupal Administrators
+### For Drupal/Murkutu Administrators
