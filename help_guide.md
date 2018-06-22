@@ -14,7 +14,7 @@ Some general notes about key terms used by the Murkutu application, which Ngan'g
 * [Categories](help_guide/general_notes.md#categories)
 * [Dictionary words](help_guide/general_notes.md#dictionary-words)
 
-## Roles
+By website roles
 ### For General Administrators/Curator
 * [Adding items](help_guide/ga.md#adding-items)
 * [Creating a Community](help_guide/ga.md#create-a-community)
