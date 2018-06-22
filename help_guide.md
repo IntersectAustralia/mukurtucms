@@ -36,3 +36,10 @@ Some general notes about key terms used by the Murkutu application, which Ngan'g
 * [Linking EOPAS video to Murkutu](help_guide/ea.md#linking-eopas-video-to-murkutu)
 
 ### For Drupal/Murkutu Administrators
+* [Editing website title](#editing-website-title)
+* [Changing Banner image](#changing-banner-image)
+* [Adding a Dictionary word](#adding-a-dictionary-word)
+* [Deleting a Dictionary word](#deleting-a-dictionary-word)
+* [Bulk importing Dictionary words](#bulk-importing-dictionary-words)
+* [Change page layout](#change-page-layout)
+* [Activate Comments box](#activate-comments-box)
