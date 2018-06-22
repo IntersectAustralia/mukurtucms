@@ -4,6 +4,8 @@ Murkutu administrators have access to the underlying software powering the Ngan'
 
 Content:
 * [Editing website title](#editing-website-title)
+* [Add image to slideshow](#add-image-to-slideshow)
+* [Delete image from slideshow](#delete-image-from-slideshow)
 * [Changing Banner image](#changing-banner-image)
 * [Adding a Dictionary word](#adding-a-dictionary-word)
 * [Deleting a Dictionary word](#deleting-a-dictionary-word)
@@ -18,11 +20,30 @@ Content:
 2. `Set up site`
 3. `Change site name, slogan and email address`
 
----
+## Add image to slideshow
+1. Go to `Content` on Drupal menu (top left)
+2. Select `Add content` from dropdown menu
+3. Select `Slideshow_image`
+4. Enter in details and upload image
+5. Then `Save`
+
+## Delete image from slideshow
+1. Go to `Content` on Drupal menu (top left)
+2. Click on `Atoms`
+3. Under `SHOW ONLY ITEMS WHERE`, filter `type` by `Slideshow_image` and click `Filter`
+4. Here you can see all of the images in the banner. Delete any by select `delete` in the same line as the image
+
 ## Changing Banner image
 1. Go to `Dashboard`
 2. `Set up Site`
 3. `Change site name, slogan and email address`
+
+---
+## Edit any text boxes
+1. Hover your cursor over the text box. A faint grey icon should appear in the top right corner, looks like a cog.
+2. Click on this icon, and then select `Configure block`
+3. Then directly edit the text as you wish.
+4. Click `Save block`
 
 ---
 # Dictionary words

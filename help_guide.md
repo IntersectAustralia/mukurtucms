@@ -38,6 +38,8 @@ Some general notes about key terms used by the Murkutu application, which Ngan'g
 
 ### For Drupal/Murkutu Administrators
 * [Editing website title](help_guide/ma.md#editing-website-title)
+* [Add image to slideshow](help_guide/ma.md#add-image-to-slideshow)
+* [Delete image from slideshow](help_guide/ma.md#delete-image-from-slideshow)
 * [Changing Banner image](help_guide/ma.md#changing-banner-image)
 * [Adding a Dictionary word](help_guide/ma.md#adding-a-dictionary-word)
 * [Deleting a Dictionary word](help_guide/ma.md#deleting-a-dictionary-word)
